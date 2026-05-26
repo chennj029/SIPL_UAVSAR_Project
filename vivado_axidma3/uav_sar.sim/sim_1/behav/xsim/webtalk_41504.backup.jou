@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Nov  5 17:50:51 2025
+# Process ID: 41504
+# Current directory: E:/vivado_axidma3/uav_sar.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source E:/vivado_axidma3/uav_sar.sim/sim_1/behav/xsim/xsim.dir/tb_uart_rx1_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: E:/vivado_axidma3/uav_sar.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: E:/vivado_axidma3/uav_sar.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source E:/vivado_axidma3/uav_sar.sim/sim_1/behav/xsim/xsim.dir/tb_uart_rx1_behav/webtalk/xsim_webtalk.tcl -notrace

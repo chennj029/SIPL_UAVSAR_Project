@@ -1,0 +1,26 @@
+$date
+        2025-May-28 14:30:44
+$end
+$version
+        Vivado v2020.1 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 1 " uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/module_en_flg $end
+$var reg 1 # _TRIGGER $end
+$var reg 1 $ _WINDOW $end
+$var reg 1 % _GAP $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0"
+0#
+1$
+0%
+$end
+#2048
+1"
+1#

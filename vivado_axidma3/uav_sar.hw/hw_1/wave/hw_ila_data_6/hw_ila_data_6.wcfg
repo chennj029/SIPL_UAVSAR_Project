@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/vivado_axidma3/uav_sar.hw/hw_1/wave/hw_ila_data_6/hw_ila_data_6.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="121fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="91"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="74" />
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/clk_cnt" type="array">
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/clk_cnt[63:0]</obj_property>
+      <obj_property name="ObjectShortName">clk_cnt[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/reg_data_out" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/reg_data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_data_out[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/slv_reg5" type="array">
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/slv_reg5[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg5[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/slv_reg2" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/slv_reg2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg2[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="label">slv_reg2_prt_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/slv_reg1" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/slv_reg1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg1[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="label">sample_len_reg1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/slv_reg4" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/slv_reg4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg4[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="label">dma_pack_len_reg4[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/slv_reg0" type="array">
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/slv_reg0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg0[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="label">sample_start_reg0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/slv_reg3" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/slv_reg3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg3[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/hh" type="array">
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/hh[31:0]</obj_property>
+      <obj_property name="ObjectShortName">hh[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/time_aligned_ms" type="array">
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/time_aligned_ms[32:0]</obj_property>
+      <obj_property name="ObjectShortName">time_aligned_ms[32:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/ss_frac" type="array">
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/ss_frac[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ss_frac[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/mm" type="array">
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/mm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mm[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/state" type="array">
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/ss" type="array">
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/ss[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ss[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/axi_rdata" type="array">
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/axi_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_rdata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/baud_cnt" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/baud_cnt[15:0]</obj_property>
+      <obj_property name="ObjectShortName">baud_cnt[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/rx_data_t" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/rx_data_t[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data_t[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/fifo_wr_cnt" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/fifo_wr_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_wr_cnt[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/byte_cnt" type="array">
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/byte_cnt[1:0]</obj_property>
+      <obj_property name="ObjectShortName">byte_cnt[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/uart_rx_data" type="array">
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/uart_rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_rx_data[7:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/uart_buf_data" type="array">
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/uart_buf_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_buf_data[31:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/dma_cnt" type="array">
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/dma_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dma_cnt[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/rx_cnt" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/rx_cnt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_cnt[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/time_buffer" type="array">
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/time_buffer[71:0]</obj_property>
+      <obj_property name="ObjectShortName">time_buffer[71:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/time_cnt" type="array">
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/time_cnt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">time_cnt[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/time_offset" type="array">
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/time_offset[31:0]</obj_property>
+      <obj_property name="ObjectShortName">time_offset[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/reg_data_out" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/reg_data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_data_out[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/slv_reg0" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/slv_reg0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg0[31:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/slv_reg1" type="array">
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/slv_reg1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg1[31:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/slv_reg2" type="array">
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/slv_reg2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg2[31:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/uart_rx_data" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/uart_rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_rx_data[7:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/utc_time" type="array">
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/utc_time[71:0]</obj_property>
+      <obj_property name="ObjectShortName">utc_time[71:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/slv_reg3" type="array">
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/slv_reg3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg3[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/char_buffer[2]" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/char_buffer[2][7:0]</obj_property>
+      <obj_property name="ObjectShortName">char_buffer[2][7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/clk_cnt_reg" type="array">
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/clk_cnt_reg[63:0]</obj_property>
+      <obj_property name="ObjectShortName">clk_cnt_reg[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/char_buffer[0]" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/char_buffer[0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">char_buffer[0][7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/char_buffer[1]" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/char_buffer[1][7:0]</obj_property>
+      <obj_property name="ObjectShortName">char_buffer[1][7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/char_buffer[3]" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/char_buffer[3][7:0]</obj_property>
+      <obj_property name="ObjectShortName">char_buffer[3][7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/char_buffer[5]" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/char_buffer[5][7:0]</obj_property>
+      <obj_property name="ObjectShortName">char_buffer[5][7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/char_buffer[6]" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/char_buffer[6][7:0]</obj_property>
+      <obj_property name="ObjectShortName">char_buffer[6][7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/align_time" type="array">
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/align_time[79:0]</obj_property>
+      <obj_property name="ObjectShortName">align_time[79:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/align_state" type="array">
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/align_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">align_state[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/char_buffer[4]" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/char_buffer[4][7:0]</obj_property>
+      <obj_property name="ObjectShortName">char_buffer[4][7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/clk_cnt" type="array">
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/clk_cnt[63:0]</obj_property>
+      <obj_property name="ObjectShortName">clk_cnt[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/clk_cnt_flag" type="logic">
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/clk_cnt_flag</obj_property>
+      <obj_property name="ObjectShortName">clk_cnt_flag</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/empty" type="logic">
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/first_pulse_flag" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/first_pulse_flag</obj_property>
+      <obj_property name="ObjectShortName">first_pulse_flag</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/first_pulse_flag" type="logic">
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/first_pulse_flag</obj_property>
+      <obj_property name="ObjectShortName">first_pulse_flag</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/first_pulse_out_flag" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/first_pulse_out_flag</obj_property>
+      <obj_property name="ObjectShortName">first_pulse_out_flag</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/first_pulse_out_flag_t" type="logic">
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/first_pulse_out_flag_t</obj_property>
+      <obj_property name="ObjectShortName">first_pulse_out_flag_t</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/full" type="logic">
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/module_en" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/module_en</obj_property>
+      <obj_property name="ObjectShortName">module_en</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/module_en_flg" type="logic">
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/module_en_flg</obj_property>
+      <obj_property name="ObjectShortName">module_en_flg</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/module_en_nedge" type="logic">
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/module_en_nedge</obj_property>
+      <obj_property name="ObjectShortName">module_en_nedge</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/module_en_pedge" type="logic">
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/module_en_pedge</obj_property>
+      <obj_property name="ObjectShortName">module_en_pedge</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/prog_full" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/prog_full</obj_property>
+      <obj_property name="ObjectShortName">prog_full</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/rx_flag" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/rx_flag</obj_property>
+      <obj_property name="ObjectShortName">rx_flag</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/start_en" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/start_en</obj_property>
+      <obj_property name="ObjectShortName">start_en</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/time_aligned_done" type="logic">
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/time_aligned_done</obj_property>
+      <obj_property name="ObjectShortName">time_aligned_done</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/time_aligned_done_flag" type="logic">
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/time_aligned_done_flag</obj_property>
+      <obj_property name="ObjectShortName">time_aligned_done_flag</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/time_aligned_done_flag_t" type="logic">
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/time_aligned_done_flag_t</obj_property>
+      <obj_property name="ObjectShortName">time_aligned_done_flag_t</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/tvalid_en" type="logic">
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/tvalid_en</obj_property>
+      <obj_property name="ObjectShortName">tvalid_en</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/uart_buf_rd" type="logic">
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/uart_buf_rd</obj_property>
+      <obj_property name="ObjectShortName">uart_buf_rd</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/uart_buf_rd_dly0" type="logic">
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/uart_buf_rd_dly0</obj_property>
+      <obj_property name="ObjectShortName">uart_buf_rd_dly0</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/uart_buf_wr" type="logic">
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/uart_buf_wr</obj_property>
+      <obj_property name="ObjectShortName">uart_buf_wr</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/uart_rx_done" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/uart_rx_done</obj_property>
+      <obj_property name="ObjectShortName">uart_rx_done</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/uart_rx_done" type="logic">
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/uart_rx_done</obj_property>
+      <obj_property name="ObjectShortName">uart_rx_done</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/uart_rxd" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/uart_rxd</obj_property>
+      <obj_property name="ObjectShortName">uart_rxd</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/uart_rxd_d0" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/uart_rxd_d0</obj_property>
+      <obj_property name="ObjectShortName">uart_rxd_d0</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/uart_rxd_d1" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/uart_rxd_d1</obj_property>
+      <obj_property name="ObjectShortName">uart_rxd_d1</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/uart_rxd_d2" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/uart_rxd_d2</obj_property>
+      <obj_property name="ObjectShortName">uart_rxd_d2</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/utc_done" type="logic">
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/utc_done</obj_property>
+      <obj_property name="ObjectShortName">utc_done</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/utc_done" type="logic">
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/utc_done</obj_property>
+      <obj_property name="ObjectShortName">utc_done</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/utc_done_t" type="logic">
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/utc_done_t</obj_property>
+      <obj_property name="ObjectShortName">utc_done_t</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>

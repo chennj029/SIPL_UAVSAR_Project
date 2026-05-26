@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/vivado_axidma2/uav_sar.hw/hw_1/wave/hw_ila_data_3/hw_ila_data_3.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="4097fs"></ZoomEndTime>
+      <Cursor1Time time="33fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="387"></NameColumnWidth>
+      <ValueColumnWidth column_width="102"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="1" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/module_en_flg" type="logic">
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/module_en_flg</obj_property>
+      <obj_property name="ObjectShortName">module_en_flg</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>

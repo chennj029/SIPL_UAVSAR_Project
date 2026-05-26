@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../uav_sar.srcs/sources_1/bd/uav_sar/ipshared/ec67/hdl" --include "../../../../uav_sar.srcs/sources_1/bd/uav_sar/ipshared/e257/hdl" --include "../../../../uav_sar.srcs/sources_1/bd/uav_sar/ipshared/8713/hdl" --include "../../../../uav_sar.srcs/sources_1/bd/uav_sar/ipshared/8b3d" --include "E:/Vitis2020/Vivado/2020.1/data/xilinx_vip/include" \
+"../../../../uav_sar.srcs/sources_1/new/sample.v" \
+"../../../../uav_sar.srcs/sources_1/new/time_align.v" \
+"../../../../uav_sar.srcs/sources_1/new/utc_time.v" \
+"../../../../uav_sar.srcs/sim_1/new/time_align_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

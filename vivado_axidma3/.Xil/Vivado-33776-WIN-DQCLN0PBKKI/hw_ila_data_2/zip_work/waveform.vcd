@@ -1,0 +1,255 @@
+$date
+        2025-May-28 16:39:15
+$end
+$version
+        Vivado v2020.1 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 64 " uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/clk_cnt [63:0] $end
+$var reg 4 b uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/time_cnt [3:0] $end
+$var reg 8 f \uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/char_buffer[3] [7:0] $end
+$var reg 32 n uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/time_offset [31:0] $end
+$var reg 72 0" uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/time_buffer [71:0] $end
+$var reg 64 x" uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/clk_cnt [63:0] $end
+$var reg 8 Z# \uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/char_buffer[4] [7:0] $end
+$var reg 8 b# \uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/char_buffer[0] [7:0] $end
+$var reg 8 j# \uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/char_buffer[5] [7:0] $end
+$var reg 8 r# \uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/char_buffer[2] [7:0] $end
+$var reg 8 z# \uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/char_buffer[1] [7:0] $end
+$var reg 80 $$ uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/align_time [79:0] $end
+$var reg 32 t$ uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/time_ms [31:0] $end
+$var reg 8 6% \uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/char_buffer[6] [7:0] $end
+$var reg 32 >% uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/hh [31:0] $end
+$var reg 32 ^% uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/mm [31:0] $end
+$var reg 32 ~% uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/ss_frac [31:0] $end
+$var reg 32 @& uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/ss [31:0] $end
+$var reg 33 `& uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/time_aligned_ms [32:0] $end
+$var reg 3 #' uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/state [2:0] $end
+$var reg 8 &' uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/uart_rx_data [7:0] $end
+$var reg 72 .' uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/utc_time [71:0] $end
+$var reg 4 v' uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/rx_cnt [3:0] $end
+$var reg 8 z' uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/uart_rx_data [7:0] $end
+$var reg 32 $( uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/uart_buf_data [31:0] $end
+$var reg 32 D( uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/dma_cnt [31:0] $end
+$var reg 32 d( uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/M_AXIS_tdata [31:0] $end
+$var reg 4 &) uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/M_AXIS_tkeep [3:0] $end
+$var reg 16 *) uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/baud_cnt [15:0] $end
+$var reg 8 :) uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/rx_data_t [7:0] $end
+$var reg 1 B) uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/M_AXIS_RSTN $end
+$var reg 32 C) uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/fifo_wr_cnt [31:0] $end
+$var reg 2 c) uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/byte_cnt [1:0] $end
+$var reg 32 e) uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/slv_reg1 [31:0] $end
+$var reg 32 '* uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/slv_reg3 [31:0] $end
+$var reg 32 G* uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/slv_reg0 [31:0] $end
+$var reg 32 g* uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/reg_data_out [31:0] $end
+$var reg 32 )+ uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/slv_reg2 [31:0] $end
+$var reg 1 I+ uav_sar_i/zynq_ultra_pl/axi_dma_0_M_AXI_S2MM_AWBURST $end
+$var reg 32 J+ uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/axi_rdata [31:0] $end
+$var reg 1 j+ uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/clk $end
+$var reg 1 k+ uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/empty $end
+$var reg 1 l+ uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/full $end
+$var reg 1 m+ uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/full_flag $end
+$var reg 1 n+ uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/M_AXIS_CLK $end
+$var reg 1 o+ uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/M_AXIS_tlast $end
+$var reg 1 p+ uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/M_AXIS_tready $end
+$var reg 1 q+ uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/M_AXIS_tvalid $end
+$var reg 1 r+ uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/module_en $end
+$var reg 1 s+ uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/prog_full $end
+$var reg 1 t+ uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/rst_n $end
+$var reg 1 u+ uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/rx_flag $end
+$var reg 1 v+ uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/start_en $end
+$var reg 1 w+ uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/time_aligned_done $end
+$var reg 1 x+ uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/tvalid_en $end
+$var reg 1 y+ uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/uart_buf_rd $end
+$var reg 1 z+ uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/uart_buf_rd_dly0 $end
+$var reg 1 {+ uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/uart_buf_wr $end
+$var reg 1 |+ uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/uart_rx_done $end
+$var reg 1 }+ uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/uart_rx_done $end
+$var reg 1 ~+ uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/uart_rxd $end
+$var reg 1 !, uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/uart_rxd_d0 $end
+$var reg 1 ", uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/uart_rxd_d1 $end
+$var reg 1 #, uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/uart_rxd_d2 $end
+$var reg 1 $, uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/utc_done $end
+$var reg 1 %, uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/utc_done $end
+$var reg 1 &, _TRIGGER $end
+$var reg 1 ', _WINDOW $end
+$var reg 1 (, _GAP $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 "
+b0 b
+b110101 f
+b0 n
+b0 0"
+b0 x"
+b1000110 Z#
+b110000 b#
+b1101 j#
+b101010 r#
+b110000 z#
+b110001001101000011001000110011001100000011000100101110001100010011000000110000 $$
+b0 t$
+b1010 6%
+b11000000010000101100000000 >%
+b101010000111010100000 ^%
+b1100100 ~%
+b1111101000 @&
+b11000101100001110111101100 `&
+b0 #'
+b1010 &'
+b1100010011010000110010001100110011000000110001001011100011000100110000 .'
+b0 v'
+b1010 z'
+b1010000011010100011000110101 $(
+b1000 D(
+b110001001011000011000100101100 d(
+b1111 &)
+b0 *)
+b0 :)
+1B)
+b0 C)
+b0 c)
+b100000000000 e)
+b1 '*
+b1 G*
+b1 g*
+b11000100110100 )+
+0I+
+b0 J+
+0j+
+1k+
+0l+
+0m+
+0n+
+0o+
+1p+
+0q+
+0r+
+0s+
+1t+
+0u+
+0v+
+0w+
+0x+
+0y+
+0z+
+0{+
+0|+
+0}+
+1~+
+1!,
+1",
+1#,
+0$,
+0%,
+0&,
+1',
+0(,
+$end
+#128
+1r+
+1&,
+#207
+b1 "
+b1 x"
+#232
+b10 "
+b10 x"
+#257
+b11 "
+b11 x"
+#282
+b100 "
+b100 x"
+#307
+b101 "
+b101 x"
+#332
+b110 "
+b110 x"
+#357
+b111 "
+b111 x"
+#382
+b1000 "
+b1000 x"
+#407
+b1001 "
+b1001 x"
+#432
+b1010 "
+b1010 x"
+#457
+b1011 "
+b1011 x"
+#482
+b1100 "
+b1100 x"
+#507
+b1101 "
+b1101 x"
+#532
+b1110 "
+b1110 x"
+#557
+b1111 "
+b1111 x"
+#582
+b10000 "
+b10000 x"
+#607
+b10001 "
+b10001 x"
+#632
+b10010 "
+b10010 x"
+#657
+b10011 "
+b10011 x"
+#682
+b10100 "
+b10100 x"
+#707
+b10101 "
+b10101 x"
+#732
+b10110 "
+b10110 x"
+#757
+b10111 "
+b10111 x"
+#782
+b11000 "
+b11000 x"
+#807
+b11001 "
+b11001 x"
+#832
+b11010 "
+b11010 x"
+#857
+b11011 "
+b11011 x"
+#882
+b11100 "
+b11100 x"
+#907
+b11101 "
+b11101 x"
+#932
+b11110 "
+b11110 x"
+#957
+b11111 "
+b11111 x"
+#982
+b100000 "
+b100000 x"
+#1007
+b100001 "
+b100001 x"

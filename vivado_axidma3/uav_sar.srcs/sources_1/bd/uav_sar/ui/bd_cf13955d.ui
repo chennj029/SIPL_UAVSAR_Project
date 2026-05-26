@@ -1,0 +1,72 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.769128",
+   "Default View_TopLeft":"-987,0",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port M00_AXI -pg 1 -lvl 3 -x 920 -y 270 -defaultsOSRD
+preplace port M02_AXI -pg 1 -lvl 3 -x 920 -y 790 -defaultsOSRD
+preplace port S00_AXI -pg 1 -lvl 0 -x 0 -y 580 -defaultsOSRD
+preplace port clk_out1 -pg 1 -lvl 3 -x 920 -y 1380 -defaultsOSRD
+preplace port ext_trig -pg 1 -lvl 0 -x 0 -y 1200 -defaultsOSRD
+preplace port trig_sel -pg 1 -lvl 0 -x 0 -y 1220 -defaultsOSRD
+preplace port triggle -pg 1 -lvl 3 -x 920 -y 1230 -defaultsOSRD
+preplace port led -pg 1 -lvl 3 -x 920 -y 1210 -defaultsOSRD
+preplace port s2mm_introut -pg 1 -lvl 3 -x 920 -y 520 -defaultsOSRD
+preplace port clk_in1 -pg 1 -lvl 0 -x 0 -y 1430 -defaultsOSRD
+preplace port ext_reset_in -pg 1 -lvl 0 -x 0 -y 400 -defaultsOSRD
+preplace port uart_rxd -pg 1 -lvl 0 -x 0 -y 1020 -defaultsOSRD
+preplace port s2mm_introut1 -pg 1 -lvl 3 -x 920 -y 700 -defaultsOSRD
+preplace portBus adc_data -pg 1 -lvl 0 -x 0 -y 1270 -defaultsOSRD
+preplace portBus adc_clk -pg 1 -lvl 0 -x 0 -y 1240 -defaultsOSRD
+preplace portBus peripheral_aresetn -pg 1 -lvl 3 -x 920 -y 1190 -defaultsOSRD
+preplace inst util_ds_buf -pg 1 -lvl 1 -x 230 -y 1280 -defaultsOSRD
+preplace inst axi_dma -pg 1 -lvl 2 -x 690 -y 500 -defaultsOSRD
+preplace inst clk_wiz -pg 1 -lvl 1 -x 230 -y 1430 -defaultsOSRD
+preplace inst axi_interconnect_1 -pg 1 -lvl 2 -x 690 -y 270 -defaultsOSRD
+preplace inst axi_data_fifo -pg 1 -lvl 1 -x 230 -y 100 -defaultsOSRD
+preplace inst proc_sys_reset -pg 1 -lvl 1 -x 230 -y 420 -defaultsOSRD
+preplace inst axis_data_fifo -pg 1 -lvl 1 -x 230 -y 1120 -defaultsOSRD
+preplace inst ad9269_sample_ctrl -pg 1 -lvl 2 -x 690 -y 1200 -defaultsOSRD
+preplace inst axis_data_fifo_0 -pg 1 -lvl 1 -x 230 -y 940 -defaultsOSRD
+preplace inst axi_dma_0 -pg 1 -lvl 2 -x 690 -y 680 -defaultsOSRD
+preplace inst axi_data_fifo_0 -pg 1 -lvl 1 -x 230 -y 260 -defaultsOSRD
+preplace inst uart_uav_data_0 -pg 1 -lvl 2 -x 690 -y 910 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 1 -x 230 -y 700 -defaultsOSRD
+preplace netloc ARESETN_1 1 0 2 60 520 410
+preplace netloc ext_trig 1 0 2 40J 1210 500J
+preplace netloc trig_sel 1 0 2 NJ 1220 510J
+preplace netloc ad9269_sample_ctrl_triggle 1 2 1 890J 1190n
+preplace netloc zynq_ultra_pl_led 1 2 1 NJ 1210
+preplace netloc adc_data 1 0 2 50J 1200 NJ
+preplace netloc adc_clk_1 1 0 1 40J 1240n
+preplace netloc axi_dma_0_s2mm_introut 1 2 1 NJ 520
+preplace netloc adc_clk 1 1 1 440J 1160n
+preplace netloc clk_wiz_clk_out1 1 0 3 40 1030 490 1380 NJ
+preplace netloc proc_sys_reset_peripheral_aresetn 1 0 3 50 180 420 1360 900J
+preplace netloc clk_in1_1 1 0 1 NJ 1430
+preplace netloc ext_reset_in_1 1 0 1 NJ 400
+preplace netloc axi_dma_0_s2mm_introut1 1 2 1 NJ 700
+preplace netloc uart_rxd_1 1 0 2 NJ 1020 500
+preplace netloc uart_uav_data_0_utc_done 1 1 2 520J 1030 860
+preplace netloc ad9269_sample_ctrl_clk_cnt 1 1 2 520J 780 880
+preplace netloc S01_AXI_1 1 1 1 400 200n
+preplace netloc ad9269_sample_ctrl_m00_axis 1 0 3 60 1370 NJ 1370 860
+preplace netloc S00_AXI_1 1 1 1 490 100n
+preplace netloc axis_data_fifo_M_AXIS 1 1 1 470 480n
+preplace netloc sample_ctrl_M00_AXI 1 2 1 NJ 270
+preplace netloc axi_dma_M_AXI_S2MM 1 0 3 40 10 NJ 10 870
+preplace netloc axi_dma_0_M_AXI_S2MM 1 0 3 60 20 NJ 20 860
+preplace netloc axis_data_fifo_0_M_AXIS 1 1 1 480 660n
+preplace netloc uart_uav_data_0_M00_AXIS 1 0 3 60 1040 N 1040 870
+preplace netloc axi_interconnect_0_M00_AXI 1 1 1 430 460n
+preplace netloc axi_interconnect_0_M02_AXI 1 1 2 450 790 NJ
+preplace netloc Conn1 1 0 1 NJ 580
+preplace netloc axi_interconnect_0_M01_AXI 1 1 1 460 690n
+preplace netloc axi_interconnect_0_M03_AXI 1 1 1 440 640n
+levelinfo -pg 1 0 230 690 920
+pagesize -pg 1 -db -bbox -sgen -150 0 1120 1490
+"
+}
+

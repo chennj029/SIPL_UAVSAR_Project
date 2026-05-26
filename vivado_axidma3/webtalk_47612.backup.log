@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2020.1_AR75502 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Jan 14 20:27:04 2025
+# Process ID: 47612
+# Current directory: e:/Files/uav_sar/vivado_axibram_new
+# Command line: wbtcv.exe -mode batch -source e:/files/uav_sar/vivado_axibram_new/uav_sar.tmp/uart_nav_data_v1_0_project/uart_nav_data_v1_0_project.hw/webtalk/labtool_webtalk.tcl -notrace
+# Log file: e:/Files/uav_sar/vivado_axibram_new/webtalk.log
+# Journal file: e:/Files/uav_sar/vivado_axibram_new\webtalk.jou
+#-----------------------------------------------------------
+source e:/files/uav_sar/vivado_axibram_new/uav_sar.tmp/uart_nav_data_v1_0_project/uart_nav_data_v1_0_project.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Tue Jan 14 20:27:04 2025...

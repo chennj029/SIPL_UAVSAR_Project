@@ -1,0 +1,342 @@
+
+*** Running vivado
+    with args -log uav_sar_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source uav_sar_wrapper.tcl
+
+
+
+****** Vivado v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source uav_sar_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ip_repo/myip_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ip_repo/uart_uav_data_1.0'.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'e:/vivado_axidma3/repo/uart_uav_data_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'e:/vivado_axidma3/repo/uart_uav_data_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'e:/vivado_axidma3/repo/uart_uav_data_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'e:/vivado_axidma3/repo/pl_bram_rd_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'e:/vivado_axidma3/repo/nav_data_rd_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/vivado_axidma3/repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx_vitis2020/Vivado/2020.1/data/ip'.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:uart_uav_data:1.0'. The one found in IP location 'e:/vivado_axidma3/repo/uart_uav_data_1.0' will take precedence over the same IP in location e:/ip_repo/uart_uav_data_1.0
+add_files: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1069.863 ; gain = 0.000
+Command: synth_design -top uav_sar_wrapper -part xczu2cg-sfvc784-1-e
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu2cg'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu2cg'
+INFO: [Device 21-403] Loading part xczu2cg-sfvc784-1-e
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 20108
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1522.078 ; gain = 76.652
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'uav_sar_wrapper' [E:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/hdl/uav_sar_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'IOBUF' [E:/Xilinx_vitis2020/Vivado/2020.1/scripts/rt/data/unisim_comp.v:36238]
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IOBUF' (1#1) [E:/Xilinx_vitis2020/Vivado/2020.1/scripts/rt/data/unisim_comp.v:36238]
+INFO: [Synth 8-6157] synthesizing module 'uav_sar' [E:/vivado_axidma3/uav_sar.runs/synth_1/.Xil/Vivado-10412-WIN-DQCLN0PBKKI/realtime/uav_sar_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'uav_sar' (2#1) [E:/vivado_axidma3/uav_sar.runs/synth_1/.Xil/Vivado-10412-WIN-DQCLN0PBKKI/realtime/uav_sar_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'uav_sar_wrapper' (3#1) [E:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/hdl/uav_sar_wrapper.v:12]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1575.379 ; gain = 129.953
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1593.309 ; gain = 147.883
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1593.309 ; gain = 147.883
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1605.340 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 26 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [E:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/uav_sar/uav_sar_in_context.xdc] for cell 'uav_sar_i'
+Finished Parsing XDC File [E:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/uav_sar/uav_sar_in_context.xdc] for cell 'uav_sar_i'
+Parsing XDC File [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/sample_inst/wait_cnt[0]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:1]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/sample_inst/wait_cnt[1]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:2]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/sample_inst/wait_cnt[2]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:3]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/sample_inst/wait_cnt[3]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:4]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/sample_inst/wait_cnt[4]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:5]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/sample_inst/wait_cnt[5]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:6]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/sample_inst/wait_cnt[6]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:7]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/sample_inst/wait_cnt[7]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:8]
+WARNING: [Vivado 12-508] No pins matched 'uav_sar_i/zynq_ultra_pl/clk_wiz/inst/mmcme4_adv_inst/CLKOUT0'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:174]
+WARNING: [Vivado 12-508] No pins matched 'uav_sar_i/zynq_ultra_pl/clk_wiz/inst/mmcme4_adv_inst/CLKOUT0'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:177]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/triggle'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:188]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[14]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:189]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[0]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:190]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[5]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:191]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[6]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:192]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[13]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:193]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[17]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:194]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[24]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:195]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[30]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:196]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[25]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:197]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[28]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:198]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[11]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:199]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[15]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:200]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[20]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:201]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[26]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:202]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[2]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:203]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[1]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:204]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[7]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:205]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[9]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:206]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[16]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:207]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[18]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:208]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[21]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:209]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[22]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:210]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[29]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:211]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[23]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:212]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[3]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:213]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[4]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:214]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[8]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:215]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[10]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:216]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[12]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:217]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[19]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:218]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[27]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:219]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[31]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:220]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/count[0]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:221]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/count[5]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:222]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/count[10]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:223]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/count[11]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:224]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/count[17]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:225]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/count[22]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:226]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/count[24]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:227]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/count[30]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:228]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/count[2]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:229]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/count[4]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:230]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/count[8]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:231]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/count[12]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:232]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/count[16]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:233]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/count[20]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:234]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/count[27]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:235]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/count[28]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:236]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/count[6]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:237]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/count[7]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:238]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/count[15]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:239]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/count[19]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:240]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/count[25]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:241]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/count[26]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:242]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/count[1]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:243]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/count[3]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:244]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/count[9]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:245]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/count[13]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:246]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/count[14]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:247]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/count[18]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:248]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/count[21]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:249]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/count[23]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:250]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/count[31]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:251]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/count[29]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:252]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/state[0]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:253]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/state[1]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:254]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/state[2]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:255]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/sample_inst/state[0]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:256]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/sample_inst/state[1]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:257]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/sample_inst/state[2]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:258]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/clk_div_inst/sample_en'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:259]
+WARNING: [Vivado 12-584] No ports matched 'IBUF_DS_P_0[0]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:277]
+WARNING: [Vivado 12-584] No ports matched 'IBUF_DS_N_0[0]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:278]
+WARNING: [Vivado 12-584] No ports matched 'IBUF_DS_P_0[0]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:279]
+WARNING: [Vivado 12-584] No ports matched 'IBUF_DS_P_0[0]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:280]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_RDATA[12]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:285]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_AWPROT[0]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:286]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_RDATA[5]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:287]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_RDATA[6]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:288]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_RDATA[19]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:289]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_RDATA[17]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:290]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_WDATA[7]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:291]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_WDATA[9]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:292]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_WDATA[14]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:293]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_WSTRB[2]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:294]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_WDATA[16]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:295]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_AWADDR[2]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:296]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_RDATA[23]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:297]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_RDATA[25]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:298]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_ARPROT[2]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:299]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_BRESP[1]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:300]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_RDATA[30]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:301]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_WDATA[11]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:302]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_WDATA[21]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:303]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_WDATA[27]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:304]
+INFO: [Common 17-14] Message 'Vivado 12-507' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:304]
+Finished Parsing XDC File [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/uav_sar_wrapper_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/uav_sar_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/uav_sar_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1710.805 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 26 instances were transformed.
+  IOBUF => IOBUF (IBUFCTRL, INBUF, OBUFT): 26 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 1710.805 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1710.805 ; gain = 265.379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu2cg-sfvc784-1-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1710.805 ; gain = 265.379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for uav_sar_i. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1710.805 ; gain = 265.379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1710.805 ; gain = 265.379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:72)
+BRAMs: 300 (col length: RAMB18 72 RAMB36 36)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1710.805 ; gain = 265.379
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 2296.191 ; gain = 850.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 2296.191 ; gain = 850.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 2315.289 ; gain = 869.863
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 2320.047 ; gain = 874.621
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 2320.047 ; gain = 874.621
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 2320.047 ; gain = 874.621
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 2320.047 ; gain = 874.621
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 2320.047 ; gain = 874.621
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 2320.047 ; gain = 874.621
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |uav_sar       |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |uav_sar |     1|
+|2     |IBUF    |    20|
+|3     |IOBUF   |    26|
+|4     |OBUF    |     2|
++------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 2320.047 ; gain = 874.621
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:32 . Memory (MB): peak = 2320.047 ; gain = 757.125
+Synthesis Optimization Complete : Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 2320.047 ; gain = 874.621
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2329.121 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 46 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2351.852 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 46 instances were transformed.
+  IBUF => IBUF (IBUFCTRL, INBUF): 20 instances
+  IOBUF => IOBUF (IBUFCTRL, INBUF, OBUFT): 26 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+30 Infos, 113 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:46 ; elapsed = 00:00:55 . Memory (MB): peak = 2351.852 ; gain = 1281.988
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'E:/vivado_axidma3/uav_sar.runs/synth_1/uav_sar_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file uav_sar_wrapper_utilization_synth.rpt -pb uav_sar_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Dec 30 11:16:58 2025...

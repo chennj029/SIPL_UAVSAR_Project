@@ -1,0 +1,150 @@
+$date
+        2025-May-06 11:33:43
+$end
+$version
+        Vivado v2020.1 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 32 " uav_sar_i/system_ila_0/inst/net_slot_0_axis_tdata [31:0] $end
+$var reg 4 B uav_sar_i/system_ila_0/inst/net_slot_0_axis_tstrb [3:0] $end
+$var reg 1 F uav_sar_i/system_ila_0/inst/net_slot_0_axis_tvalid $end
+$var reg 1 G uav_sar_i/system_ila_0/inst/net_slot_0_axis_tready $end
+$var reg 1 H uav_sar_i/system_ila_0/inst/net_slot_0_axis_tlast $end
+$var reg 2 I uav_sar_i/system_ila_0/inst/net_slot_1_axi_ar_cnt [1:0] $end
+$var reg 64 K uav_sar_i/system_ila_0/inst/net_slot_1_axi_araddr [63:0] $end
+$var reg 4 -" uav_sar_i/system_ila_0/inst/net_slot_1_axi_arcache [3:0] $end
+$var reg 8 1" uav_sar_i/system_ila_0/inst/net_slot_1_axi_arlen [7:0] $end
+$var reg 3 9" uav_sar_i/system_ila_0/inst/net_slot_1_axi_arprot [2:0] $end
+$var reg 3 <" uav_sar_i/system_ila_0/inst/net_slot_1_axi_arsize [2:0] $end
+$var reg 2 ?" uav_sar_i/system_ila_0/inst/net_slot_1_axi_aw_cnt [1:0] $end
+$var reg 64 A" uav_sar_i/system_ila_0/inst/net_slot_1_axi_awaddr [63:0] $end
+$var reg 4 ## uav_sar_i/system_ila_0/inst/net_slot_1_axi_awcache [3:0] $end
+$var reg 8 '# uav_sar_i/system_ila_0/inst/net_slot_1_axi_awlen [7:0] $end
+$var reg 3 /# uav_sar_i/system_ila_0/inst/net_slot_1_axi_awprot [2:0] $end
+$var reg 3 2# uav_sar_i/system_ila_0/inst/net_slot_1_axi_awsize [2:0] $end
+$var reg 2 5# uav_sar_i/system_ila_0/inst/net_slot_1_axi_b_cnt [1:0] $end
+$var reg 2 7# uav_sar_i/system_ila_0/inst/net_slot_1_axi_bresp [1:0] $end
+$var reg 2 9# uav_sar_i/system_ila_0/inst/net_slot_1_axi_r_cnt [1:0] $end
+$var reg 32 ;# uav_sar_i/system_ila_0/inst/net_slot_1_axi_rdata [31:0] $end
+$var reg 32 [# uav_sar_i/system_ila_0/inst/net_slot_1_axi_wdata [31:0] $end
+$var reg 4 {# uav_sar_i/system_ila_0/inst/net_slot_1_axi_wstrb [3:0] $end
+$var reg 2 !$ uav_sar_i/system_ila_0/inst/net_slot_1_axi_aw_ctrl [1:0] $end
+$var reg 1 #$ uav_sar_i/system_ila_0/inst/net_slot_1_axi_awvalid $end
+$var reg 1 $$ uav_sar_i/system_ila_0/inst/net_slot_1_axi_awready $end
+$var reg 3 %$ uav_sar_i/system_ila_0/inst/net_slot_1_axi_w_ctrl [2:0] $end
+$var reg 1 ($ uav_sar_i/system_ila_0/inst/net_slot_1_axi_wvalid $end
+$var reg 1 )$ uav_sar_i/system_ila_0/inst/net_slot_1_axi_wready $end
+$var reg 1 *$ uav_sar_i/system_ila_0/inst/net_slot_1_axi_wlast $end
+$var reg 1 +$ uav_sar_i/system_ila_0/inst/net_slot_1_axi_bvalid $end
+$var reg 2 ,$ uav_sar_i/system_ila_0/inst/net_slot_1_axi_b_ctrl [1:0] $end
+$var reg 1 .$ uav_sar_i/system_ila_0/inst/net_slot_1_axi_bready $end
+$var reg 1 /$ uav_sar_i/system_ila_0/inst/net_slot_1_axi_arvalid $end
+$var reg 2 0$ uav_sar_i/system_ila_0/inst/net_slot_1_axi_ar_ctrl [1:0] $end
+$var reg 1 2$ uav_sar_i/system_ila_0/inst/net_slot_1_axi_arready $end
+$var reg 3 3$ uav_sar_i/system_ila_0/inst/net_slot_1_axi_r_ctrl [2:0] $end
+$var reg 1 6$ uav_sar_i/system_ila_0/inst/net_slot_1_axi_rvalid $end
+$var reg 1 7$ uav_sar_i/system_ila_0/inst/net_slot_1_axi_rready $end
+$var reg 1 8$ uav_sar_i/system_ila_0/inst/net_slot_1_axi_rlast $end
+$var reg 32 9$ uav_sar_i/system_ila_0/inst/net_slot_2_axis_tdata [31:0] $end
+$var reg 4 Y$ uav_sar_i/system_ila_0/inst/net_slot_2_axis_tstrb [3:0] $end
+$var reg 1 ]$ uav_sar_i/system_ila_0/inst/net_slot_2_axis_tvalid $end
+$var reg 1 ^$ uav_sar_i/system_ila_0/inst/net_slot_2_axis_tready $end
+$var reg 1 _$ uav_sar_i/system_ila_0/inst/net_slot_2_axis_tlast $end
+$var reg 3 `$ AR_Channel__i1_s1___Conn1_ [2:0] $end
+$var reg 3 c$ AW_Channel__i1_s1___Conn1_ [2:0] $end
+$var reg 3 f$ B_Channel__i1_s1___Conn1_ [2:0] $end
+$var reg 3 i$ Interface__i1_s0___Conn_ [2:0] $end
+$var reg 3 l$ Interface__i1_s1___Conn1_ [2:0] $end
+$var reg 3 o$ Interface__i1_s2___Conn2_ [2:0] $end
+$var reg 3 r$ R_Channel__i1_s1___Conn1_ [2:0] $end
+$var reg 3 u$ T_Channel__i1_s0___Conn_ [2:0] $end
+$var reg 3 x$ T_Channel__i1_s2___Conn2_ [2:0] $end
+$var reg 3 {$ W_Channel__i1_s1___Conn1_ [2:0] $end
+$var reg 1 ~$ _TRIGGER $end
+$var reg 1 !% _WINDOW $end
+$var reg 1 "% _GAP $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 "
+b0 B
+0F
+1G
+0H
+b0 I
+b0 K
+b11 -"
+b0 1"
+b0 9"
+b10 <"
+b0 ?"
+b0 A"
+b11 ##
+b0 '#
+b0 /#
+b0 2#
+b0 5#
+b10 7#
+b0 9#
+b0 ;#
+b0 [#
+b0 {#
+b10 !$
+0#$
+1$$
+b0 %$
+0($
+0)$
+0*$
+0+$
+b10 ,$
+1.$
+0/$
+b0 0$
+02$
+b0 3$
+06$
+07$
+08$
+b0 9$
+b0 Y$
+0]$
+1^$
+0_$
+b11 `$
+b11 c$
+b11 f$
+b0 i$
+b11 l$
+b0 o$
+b100 r$
+b0 u$
+b0 x$
+b100 {$
+0~$
+1!%
+0"%
+$end
+#10
+b1011000 "
+1F
+b1 i$
+b1 u$
+1~$
+#11
+0F
+b0 i$
+b0 u$
+#13
+b1011000 9$
+1]$
+b1 o$
+b1 x$
+#14
+0]$
+b0 o$
+b0 x$

@@ -1,0 +1,1385 @@
+
+*** Running vivado
+    with args -log uav_sar_wrapper.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source uav_sar_wrapper.tcl -notrace
+
+
+
+****** Vivado v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source uav_sar_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ip_repo/myip_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ip_repo/uart_uav_data_1.0'.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'e:/vivado_axidma3/repo/uart_uav_data_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'e:/vivado_axidma3/repo/uart_uav_data_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'e:/vivado_axidma3/repo/uart_uav_data_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'e:/vivado_axidma3/repo/pl_bram_rd_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'e:/vivado_axidma3/repo/nav_data_rd_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/vivado_axidma3/repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx_vitis2020/Vivado/2020.1/data/ip'.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:uart_uav_data:1.0'. The one found in IP location 'e:/vivado_axidma3/repo/uart_uav_data_1.0' will take precedence over the same IP in location e:/ip_repo/uart_uav_data_1.0
+add_files: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1070.324 ; gain = 0.000
+Command: link_design -top uav_sar_wrapper -part xczu2cg-sfvc784-1-e
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xczu2cg-sfvc784-1-e
+INFO: [Project 1-454] Reading design checkpoint 'E:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/uav_sar.dcp' for cell 'uav_sar_i'
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.486 . Memory (MB): peak = 1448.816 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 666 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Chipscope 16-324] Core: uav_sar_i/system_ila_1/inst/ila_lib UUID: 6762c1ec-5daf-5d84-ab75-42da3779edc5 
+Parsing XDC File [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_zynq_ultra_ps_e_0_0/uav_sar_zynq_ultra_ps_e_0_0.xdc] for cell 'uav_sar_i/zynq_ultra_ps/inst'
+Finished Parsing XDC File [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_zynq_ultra_ps_e_0_0/uav_sar_zynq_ultra_ps_e_0_0.xdc] for cell 'uav_sar_i/zynq_ultra_ps/inst'
+Parsing XDC File [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_proc_sys_reset_0_0/uav_sar_proc_sys_reset_0_0_board.xdc] for cell 'uav_sar_i/zynq_ultra_pl/proc_sys_reset/U0'
+Finished Parsing XDC File [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_proc_sys_reset_0_0/uav_sar_proc_sys_reset_0_0_board.xdc] for cell 'uav_sar_i/zynq_ultra_pl/proc_sys_reset/U0'
+Parsing XDC File [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_proc_sys_reset_0_0/uav_sar_proc_sys_reset_0_0.xdc] for cell 'uav_sar_i/zynq_ultra_pl/proc_sys_reset/U0'
+Finished Parsing XDC File [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_proc_sys_reset_0_0/uav_sar_proc_sys_reset_0_0.xdc] for cell 'uav_sar_i/zynq_ultra_pl/proc_sys_reset/U0'
+Parsing XDC File [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_axi_dma_0_0/uav_sar_axi_dma_0_0.xdc] for cell 'uav_sar_i/zynq_ultra_pl/axi_dma/U0'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_axi_dma_0_0/uav_sar_axi_dma_0_0.xdc:52]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_axi_dma_0_0/uav_sar_axi_dma_0_0.xdc:56]
+WARNING: [Vivado_Tcl 4-919] Waiver ID 'CDC-1' -from list should not be empty. [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_axi_dma_0_0/uav_sar_axi_dma_0_0.xdc:61]
+Finished Parsing XDC File [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_axi_dma_0_0/uav_sar_axi_dma_0_0.xdc] for cell 'uav_sar_i/zynq_ultra_pl/axi_dma/U0'
+Parsing XDC File [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_clk_wiz_0_0/uav_sar_clk_wiz_0_0_board.xdc] for cell 'uav_sar_i/zynq_ultra_pl/clk_wiz/inst'
+Finished Parsing XDC File [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_clk_wiz_0_0/uav_sar_clk_wiz_0_0_board.xdc] for cell 'uav_sar_i/zynq_ultra_pl/clk_wiz/inst'
+Parsing XDC File [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_clk_wiz_0_0/uav_sar_clk_wiz_0_0.xdc] for cell 'uav_sar_i/zynq_ultra_pl/clk_wiz/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_clk_wiz_0_0/uav_sar_clk_wiz_0_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_clk_wiz_0_0/uav_sar_clk_wiz_0_0.xdc:57]
+get_clocks: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 1822.555 ; gain = 305.242
+Finished Parsing XDC File [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_clk_wiz_0_0/uav_sar_clk_wiz_0_0.xdc] for cell 'uav_sar_i/zynq_ultra_pl/clk_wiz/inst'
+Parsing XDC File [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_util_ds_buf_0_0/uav_sar_util_ds_buf_0_0_board.xdc] for cell 'uav_sar_i/zynq_ultra_pl/util_ds_buf/U0'
+Finished Parsing XDC File [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_util_ds_buf_0_0/uav_sar_util_ds_buf_0_0_board.xdc] for cell 'uav_sar_i/zynq_ultra_pl/util_ds_buf/U0'
+Parsing XDC File [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_axi_dma_0_1/uav_sar_axi_dma_0_1.xdc] for cell 'uav_sar_i/zynq_ultra_pl/axi_dma_0/U0'
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_axi_dma_0_1/uav_sar_axi_dma_0_1.xdc:52]
+WARNING: [Vivado_Tcl 4-921] Waiver ID 'CDC-1' -to list should not be empty. [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_axi_dma_0_1/uav_sar_axi_dma_0_1.xdc:56]
+WARNING: [Vivado_Tcl 4-919] Waiver ID 'CDC-1' -from list should not be empty. [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_axi_dma_0_1/uav_sar_axi_dma_0_1.xdc:61]
+Finished Parsing XDC File [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_axi_dma_0_1/uav_sar_axi_dma_0_1.xdc] for cell 'uav_sar_i/zynq_ultra_pl/axi_dma_0/U0'
+Parsing XDC File [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_uart_uav_data_0_4/src/fifo_generator_0/fifo_generator_0.xdc] for cell 'uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/fifo_async/U0'
+Finished Parsing XDC File [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_uart_uav_data_0_4/src/fifo_generator_0/fifo_generator_0.xdc] for cell 'uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/fifo_async/U0'
+Parsing XDC File [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_system_ila_1_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila_impl.xdc] for cell 'uav_sar_i/system_ila_1/inst/ila_lib/inst'
+Finished Parsing XDC File [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_system_ila_1_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila_impl.xdc] for cell 'uav_sar_i/system_ila_1/inst/ila_lib/inst'
+Parsing XDC File [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_system_ila_1_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila.xdc] for cell 'uav_sar_i/system_ila_1/inst/ila_lib/inst'
+Finished Parsing XDC File [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_system_ila_1_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila.xdc] for cell 'uav_sar_i/system_ila_1/inst/ila_lib/inst'
+Parsing XDC File [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc]
+WARNING: [Vivado 12-508] No pins matched 'uav_sar_i/zynq_ultra_pl/clk_wiz/inst/mmcme4_adv_inst/CLKOUT0'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:174]
+WARNING: [Vivado 12-1008] No clocks found for command 'get_clocks -of_objects [get_pins uav_sar_i/zynq_ultra_pl/clk_wiz/inst/mmcme4_adv_inst/CLKOUT0]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:174]
+Resolution: Verify the create_clock command was called to create the clock object before it is referenced.
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:174]
+CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-from [get_clocks -of_objects [get_pins uav_sar_i/zynq_ultra_pl/clk_wiz/inst/mmcme4_adv_inst/CLKOUT0]]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:174]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-508] No pins matched 'uav_sar_i/zynq_ultra_pl/clk_wiz/inst/mmcme4_adv_inst/CLKOUT0'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:177]
+WARNING: [Vivado 12-1008] No clocks found for command 'get_clocks -of_objects [get_pins uav_sar_i/zynq_ultra_pl/clk_wiz/inst/mmcme4_adv_inst/CLKOUT0]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:177]
+Resolution: Verify the create_clock command was called to create the clock object before it is referenced.
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:177]
+CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-to [get_clocks -of_objects [get_pins uav_sar_i/zynq_ultra_pl/clk_wiz/inst/mmcme4_adv_inst/CLKOUT0]]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:177]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[14]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:189]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:189]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[0]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:190]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:190]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[5]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:191]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:191]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[6]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:192]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:192]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[13]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:193]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:193]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[17]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:194]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:194]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[24]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:195]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:195]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[30]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:196]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:196]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[25]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:197]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:197]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[28]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:198]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:198]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[11]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:199]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:199]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[15]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:200]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:200]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[20]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:201]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:201]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[26]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:202]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:202]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[2]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:203]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:203]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[1]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:204]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:204]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[7]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:205]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:205]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[9]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:206]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:206]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[16]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:207]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:207]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[18]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:208]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:208]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[21]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:209]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:209]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[22]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:210]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:210]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[29]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:211]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:211]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[23]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:212]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:212]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[3]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:213]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:213]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[4]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:214]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:214]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[8]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:215]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:215]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[10]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:216]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:216]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[12]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:217]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:217]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[19]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:218]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:218]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[27]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:219]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:219]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/dma_cnt[31]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:220]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:220]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'IBUF_DS_P_0[0]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:277]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:277]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'IBUF_DS_N_0[0]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:278]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:278]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'IBUF_DS_P_0[0]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:279]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:279]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'IBUF_DS_P_0[0]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:280]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:280]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_RDATA[12]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:285]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:285]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_AWPROT[0]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:286]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:286]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_RDATA[5]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:287]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:287]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_RDATA[6]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:288]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:288]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_RDATA[19]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:289]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:289]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_RDATA[17]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:290]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:290]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_WDATA[7]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:291]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:291]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_WDATA[9]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:292]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:292]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_WDATA[14]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:293]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:293]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_WSTRB[2]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:294]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:294]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_WDATA[16]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:295]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:295]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_AWADDR[2]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:296]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:296]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_RDATA[23]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:297]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:297]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_RDATA[25]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:298]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:298]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_ARPROT[2]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:299]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:299]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_BRESP[1]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:300]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:300]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_RDATA[30]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:301]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:301]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_WDATA[11]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:302]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:302]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_WDATA[21]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:303]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:303]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_WDATA[27]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:304]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:304]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_WDATA[22]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:305]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:305]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_RDATA[4]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:306]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:306]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_AWADDR[3]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:307]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:307]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_ARADDR[1]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:308]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:308]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_AWADDR[1]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:309]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:309]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_RDATA[2]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:310]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:310]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_RDATA[14]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:311]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:311]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_RRESP[1]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:312]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:312]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_WDATA[1]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:313]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:313]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_WDATA[12]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:314]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:314]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_WSTRB[3]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:315]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:315]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_ARPROT[1]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:316]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:316]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_ARADDR[3]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:317]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:317]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_RDATA[9]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:318]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:318]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_RDATA[15]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:319]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:319]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_RDATA[18]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:320]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:320]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_RDATA[22]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:321]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:321]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_WDATA[8]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:322]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:322]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_WDATA[31]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:323]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:323]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_WDATA[18]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:324]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:324]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_WDATA[23]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:325]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:325]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_RDATA[20]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:326]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:326]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_ARADDR[2]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:327]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:327]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_AWPROT[2]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:328]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:328]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_BRESP[0]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:329]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:329]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_WSTRB[0]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:330]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:330]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_WDATA[3]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:331]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:331]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_WDATA[15]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:332]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:332]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_WDATA[26]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:333]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:333]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_WDATA[29]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:334]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:334]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_RDATA[11]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:335]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:335]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_RRESP[0]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:336]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:336]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_RDATA[27]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:337]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:337]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_RDATA[29]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:338]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:338]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_RDATA[1]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:339]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:339]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_RDATA[13]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:340]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:340]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_ARADDR[0]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:341]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:341]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_ARPROT[0]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:342]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:342]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_WDATA[2]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:343]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:343]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_AWADDR[0]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:344]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:344]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_WDATA[20]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:345]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:345]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_WDATA[5]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:346]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:346]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_WDATA[10]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:347]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:347]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_WDATA[19]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:348]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:348]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+INFO: [Common 17-14] Message 'Common 17-55' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:348]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_WDATA[30]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:349]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_RDATA[7]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:350]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_RDATA[8]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:351]
+WARNING: [Vivado 12-507] No nets matched 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0_M02_AXI_RDATA[24]'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:352]
+INFO: [Common 17-14] Message 'Vivado 12-507' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:352]
+CRITICAL WARNING: [Common 17-162] Invalid option value specified for '-nets'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:374]
+CRITICAL WARNING: [Common 17-162] Invalid option value specified for '-nets'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:378]
+CRITICAL WARNING: [Common 17-162] Invalid option value specified for '-nets'. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:1075]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:1226]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:1227]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:1228]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:1232]
+CRITICAL WARNING: [Vivado 12-1419] Debug core 'u_ila_0' was not found. [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc:1285]
+Finished Parsing XDC File [E:/vivado_axidma3/uav_sar.srcs/constrs_1/new/system.xdc]
+Parsing XDC File [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_axi_data_fifo_0_0/uav_sar_axi_data_fifo_0_0_clocks.xdc] for cell 'uav_sar_i/zynq_ultra_pl/axi_data_fifo/inst'
+WARNING: [Vivado 12-180] No cells matched '*'. [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_axi_data_fifo_0_0/uav_sar_axi_data_fifo_0_0_clocks.xdc:2]
+WARNING: [Vivado 12-508] No pins matched '*'. [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_axi_data_fifo_0_0/uav_sar_axi_data_fifo_0_0_clocks.xdc:2]
+WARNING: [Vivado_Tcl 4-939] Waiver ID 'LUTAR-1' object list should not be empty (perhaps an invalid wildcard was used or only unsupported objects). [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_axi_data_fifo_0_0/uav_sar_axi_data_fifo_0_0_clocks.xdc:2]
+WARNING: [Vivado 12-180] No cells matched '*'. [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_axi_data_fifo_0_0/uav_sar_axi_data_fifo_0_0_clocks.xdc:6]
+WARNING: [Vivado 12-508] No pins matched '*'. [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_axi_data_fifo_0_0/uav_sar_axi_data_fifo_0_0_clocks.xdc:6]
+WARNING: [Vivado_Tcl 4-939] Waiver ID 'LUTAR-1' object list should not be empty (perhaps an invalid wildcard was used or only unsupported objects). [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_axi_data_fifo_0_0/uav_sar_axi_data_fifo_0_0_clocks.xdc:6]
+Finished Parsing XDC File [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_axi_data_fifo_0_0/uav_sar_axi_data_fifo_0_0_clocks.xdc] for cell 'uav_sar_i/zynq_ultra_pl/axi_data_fifo/inst'
+Parsing XDC File [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_axi_dma_0_0/uav_sar_axi_dma_0_0_clocks.xdc] for cell 'uav_sar_i/zynq_ultra_pl/axi_dma/U0'
+Finished Parsing XDC File [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_axi_dma_0_0/uav_sar_axi_dma_0_0_clocks.xdc] for cell 'uav_sar_i/zynq_ultra_pl/axi_dma/U0'
+Parsing XDC File [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_axi_dma_0_1/uav_sar_axi_dma_0_1_clocks.xdc] for cell 'uav_sar_i/zynq_ultra_pl/axi_dma_0/U0'
+Finished Parsing XDC File [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_axi_dma_0_1/uav_sar_axi_dma_0_1_clocks.xdc] for cell 'uav_sar_i/zynq_ultra_pl/axi_dma_0/U0'
+Parsing XDC File [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_axi_data_fifo_0_1/uav_sar_axi_data_fifo_0_1_clocks.xdc] for cell 'uav_sar_i/zynq_ultra_pl/axi_data_fifo_0/inst'
+WARNING: [Vivado 12-180] No cells matched '*'. [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_axi_data_fifo_0_1/uav_sar_axi_data_fifo_0_1_clocks.xdc:2]
+WARNING: [Vivado 12-508] No pins matched '*'. [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_axi_data_fifo_0_1/uav_sar_axi_data_fifo_0_1_clocks.xdc:2]
+WARNING: [Vivado_Tcl 4-939] Waiver ID 'LUTAR-1' object list should not be empty (perhaps an invalid wildcard was used or only unsupported objects). [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_axi_data_fifo_0_1/uav_sar_axi_data_fifo_0_1_clocks.xdc:2]
+WARNING: [Vivado 12-180] No cells matched '*'. [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_axi_data_fifo_0_1/uav_sar_axi_data_fifo_0_1_clocks.xdc:6]
+WARNING: [Vivado 12-508] No pins matched '*'. [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_axi_data_fifo_0_1/uav_sar_axi_data_fifo_0_1_clocks.xdc:6]
+WARNING: [Vivado_Tcl 4-939] Waiver ID 'LUTAR-1' object list should not be empty (perhaps an invalid wildcard was used or only unsupported objects). [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_axi_data_fifo_0_1/uav_sar_axi_data_fifo_0_1_clocks.xdc:6]
+Finished Parsing XDC File [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_axi_data_fifo_0_1/uav_sar_axi_data_fifo_0_1_clocks.xdc] for cell 'uav_sar_i/zynq_ultra_pl/axi_data_fifo_0/inst'
+Parsing XDC File [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_uart_uav_data_0_4/src/fifo_generator_0/fifo_generator_0_clocks.xdc] for cell 'uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/fifo_async/U0'
+Finished Parsing XDC File [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_uart_uav_data_0_4/src/fifo_generator_0/fifo_generator_0_clocks.xdc] for cell 'uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_uart_rx/fifo_async/U0'
+Parsing XDC File [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_auto_us_0/uav_sar_auto_us_0_clocks.xdc] for cell 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0/s00_couplers/auto_us/inst'
+Finished Parsing XDC File [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_auto_us_0/uav_sar_auto_us_0_clocks.xdc] for cell 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0/s00_couplers/auto_us/inst'
+Parsing XDC File [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_auto_ds_0/uav_sar_auto_ds_0_clocks.xdc] for cell 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0/m00_couplers/auto_ds/inst'
+Finished Parsing XDC File [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_auto_ds_0/uav_sar_auto_ds_0_clocks.xdc] for cell 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0/m00_couplers/auto_ds/inst'
+Parsing XDC File [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_auto_ds_1/uav_sar_auto_ds_1_clocks.xdc] for cell 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0/m02_couplers/auto_ds/inst'
+Finished Parsing XDC File [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_auto_ds_1/uav_sar_auto_ds_1_clocks.xdc] for cell 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0/m02_couplers/auto_ds/inst'
+Parsing XDC File [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_auto_ds_2/uav_sar_auto_ds_2_clocks.xdc] for cell 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0/m03_couplers/auto_ds/inst'
+Finished Parsing XDC File [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_auto_ds_2/uav_sar_auto_ds_2_clocks.xdc] for cell 'uav_sar_i/zynq_ultra_pl/axi_interconnect_0/m03_couplers/auto_ds/inst'
+Parsing XDC File [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_auto_us_1/uav_sar_auto_us_1_clocks.xdc] for cell 'uav_sar_i/zynq_ultra_pl/axi_interconnect_1/s00_couplers/auto_us/inst'
+Finished Parsing XDC File [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_auto_us_1/uav_sar_auto_us_1_clocks.xdc] for cell 'uav_sar_i/zynq_ultra_pl/axi_interconnect_1/s00_couplers/auto_us/inst'
+Parsing XDC File [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_auto_us_2/uav_sar_auto_us_2_clocks.xdc] for cell 'uav_sar_i/zynq_ultra_pl/axi_interconnect_1/s01_couplers/auto_us/inst'
+Finished Parsing XDC File [e:/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_auto_us_2/uav_sar_auto_us_2_clocks.xdc] for cell 'uav_sar_i/zynq_ultra_pl/axi_interconnect_1/s01_couplers/auto_us/inst'
+Sourcing Tcl File [E:/Xilinx_vitis2020/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/sample_inst/xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst'
+Finished Sourcing Tcl File [E:/Xilinx_vitis2020/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/sample_inst/xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst'
+Sourcing Tcl File [E:/Xilinx_vitis2020/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/sample_inst/xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst'
+Finished Sourcing Tcl File [E:/Xilinx_vitis2020/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/sample_inst/xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst'
+Sourcing Tcl File [E:/Xilinx_vitis2020/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/sample_inst/xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_dc_inst'
+Finished Sourcing Tcl File [E:/Xilinx_vitis2020/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/sample_inst/xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_dc_inst'
+Sourcing Tcl File [E:/Xilinx_vitis2020/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/sample_inst/xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst'
+Finished Sourcing Tcl File [E:/Xilinx_vitis2020/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl] for cell 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/sample_inst/xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst'
+Sourcing Tcl File [E:/Xilinx_vitis2020/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/sample_inst/xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.rrst_wr_inst'
+Finished Sourcing Tcl File [E:/Xilinx_vitis2020/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/sample_inst/xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.rrst_wr_inst'
+Sourcing Tcl File [E:/Xilinx_vitis2020/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/sample_inst/xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.wrst_rd_inst'
+Finished Sourcing Tcl File [E:/Xilinx_vitis2020/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/sample_inst/xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_rst_ic.wrst_rd_inst'
+Sourcing Tcl File [E:/Xilinx_vitis2020/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'uav_sar_i/zynq_ultra_pl/axis_data_fifo_0/inst/gen_fifo.xpm_fifo_axis_inst/gaxis_rst_sync.xpm_cdc_sync_rst_inst'
+Finished Sourcing Tcl File [E:/Xilinx_vitis2020/Vivado/2020.1/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_sync_rst.tcl] for cell 'uav_sar_i/zynq_ultra_pl/axis_data_fifo_0/inst/gen_fifo.xpm_fifo_axis_inst/gaxis_rst_sync.xpm_cdc_sync_rst_inst'
+Sourcing Tcl File [E:/Xilinx_vitis2020/Vivado/2020.1/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/sample_inst/xpm_fifo_async_inst'
+Finished Sourcing Tcl File [E:/Xilinx_vitis2020/Vivado/2020.1/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/sample_inst/xpm_fifo_async_inst'
+Sourcing Tcl File [E:/Xilinx_vitis2020/Vivado/2020.1/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst_axis.tcl] for cell 'uav_sar_i/zynq_ultra_pl/axis_data_fifo_0/inst/gen_fifo.xpm_fifo_axis_inst'
+Finished Sourcing Tcl File [E:/Xilinx_vitis2020/Vivado/2020.1/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst_axis.tcl] for cell 'uav_sar_i/zynq_ultra_pl/axis_data_fifo_0/inst/gen_fifo.xpm_fifo_axis_inst'
+Sourcing Tcl File [E:/Xilinx_vitis2020/Vivado/2020.1/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'uav_sar_i/zynq_ultra_pl/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst'
+Finished Sourcing Tcl File [E:/Xilinx_vitis2020/Vivado/2020.1/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'uav_sar_i/zynq_ultra_pl/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst'
+Sourcing Tcl File [E:/Xilinx_vitis2020/Vivado/2020.1/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'uav_sar_i/zynq_ultra_pl/axi_dma/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst'
+Finished Sourcing Tcl File [E:/Xilinx_vitis2020/Vivado/2020.1/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'uav_sar_i/zynq_ultra_pl/axi_dma/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst'
+Sourcing Tcl File [E:/Xilinx_vitis2020/Vivado/2020.1/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'uav_sar_i/zynq_ultra_pl/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst'
+Finished Sourcing Tcl File [E:/Xilinx_vitis2020/Vivado/2020.1/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'uav_sar_i/zynq_ultra_pl/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst'
+Sourcing Tcl File [E:/Xilinx_vitis2020/Vivado/2020.1/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'uav_sar_i/zynq_ultra_pl/axi_dma/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst'
+Finished Sourcing Tcl File [E:/Xilinx_vitis2020/Vivado/2020.1/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'uav_sar_i/zynq_ultra_pl/axi_dma/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 2390.195 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 80 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 32 instances
+  IBUF => IBUF (IBUFCTRL, INBUF): 20 instances
+  IOBUF => IOBUF (IBUFCTRL, INBUF, OBUFT): 26 instances
+  RAM32M16 => RAM32M16 (RAMD32(x14), RAMS32(x2)): 2 instances
+
+20 Infos, 132 Warnings, 110 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:52 ; elapsed = 00:00:59 . Memory (MB): peak = 2390.195 ; gain = 1319.871
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu2cg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu2cg'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 2390.195 ; gain = 0.000
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 126b112eb
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 2390.195 ; gain = 0.000
+
+Starting Logic Optimization Task
+
+Phase 1 Generate And Synthesize Debug Cores
+INFO: [Chipscope 16-329] Generating Script for core instance : dbg_hub 
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:xsdbm:3.0 for cell dbg_hub_CV.
+INFO: [Chipscope 16-329] Generating Script for core instance : u_ila_0 
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:ila:6.2 for cell u_ila_0_CV.
+INFO: [Chipscope 16-469] Using cached IP synthesis design for IP xilinx.com:ip:xsdbm:3.0, cache-ID = 2218e105d0d15785.
+INFO: [Chipscope 16-469] Using cached IP synthesis design for IP xilinx.com:ip:ila:6.2, cache-ID = bf985ffd5ebf9621.
+get_clocks: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 2711.551 ; gain = 84.625
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.530 . Memory (MB): peak = 2712.633 ; gain = 0.000
+Phase 1 Generate And Synthesize Debug Cores | Checksum: 151c1c477
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:01:11 . Memory (MB): peak = 2712.633 ; gain = 147.605
+
+Phase 2 Retarget
+INFO: [Opt 31-138] Pushed 34 inverter(s) to 3133 load pin(s).
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[0].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[0].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[0].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[0].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[0].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[13].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[0].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[14].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[0].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[0].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[0].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[0].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[4].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[0].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[5].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[0].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[6].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[0].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[7].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[0].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[0].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[1].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[1].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[1].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[1].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[1].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[13].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[1].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[14].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[1].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[1].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[1].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[1].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[4].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[1].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[5].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[1].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[6].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[1].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[7].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[1].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[1].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[2].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[2].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[2].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[2].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[2].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[13].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[2].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[14].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[2].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[2].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[2].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[2].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[4].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[2].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[5].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[2].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[6].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[2].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[7].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[2].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.BLK_MEM_GEN[2].trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell u_ila_0/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell uav_sar_i/system_ila_1/inst/ila_lib/inst/ila_core_inst/ila_trace_memory_inst/SUBCORE_RAM_BLK_MEM_1.trace_block_memory/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM18.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 2 Retarget | Checksum: 9dd31290
+
+Time (s): cpu = 00:00:38 ; elapsed = 00:01:17 . Memory (MB): peak = 2729.707 ; gain = 164.680
+INFO: [Opt 31-389] Phase Retarget created 505 cells and removed 1167 cells
+INFO: [Opt 31-1021] In phase Retarget, 222 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 3 Constant propagation
+INFO: [Opt 31-138] Pushed 15 inverter(s) to 23 load pin(s).
+Phase 3 Constant propagation | Checksum: 164bcc481
+
+Time (s): cpu = 00:00:40 ; elapsed = 00:01:19 . Memory (MB): peak = 2729.707 ; gain = 164.680
+INFO: [Opt 31-389] Phase Constant propagation created 723 cells and removed 1744 cells
+INFO: [Opt 31-1021] In phase Constant propagation, 196 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 4 Sweep
+Phase 4 Sweep | Checksum: 196e25c1a
+
+Time (s): cpu = 00:00:49 ; elapsed = 00:01:27 . Memory (MB): peak = 2729.707 ; gain = 164.680
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 1358 cells
+INFO: [Opt 31-1021] In phase Sweep, 4815 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 5 BUFG optimization
+INFO: [Opt 31-1077] Phase BUFG optimization inserted 0 global clock buffer(s) for CLOCK_LOW_FANOUT.
+Phase 5 BUFG optimization | Checksum: 196e25c1a
+
+Time (s): cpu = 00:00:51 ; elapsed = 00:01:29 . Memory (MB): peak = 2729.707 ; gain = 164.680
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 6 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 6 Shift Register Optimization | Checksum: 196e25c1a
+
+Time (s): cpu = 00:00:52 ; elapsed = 00:01:31 . Memory (MB): peak = 2729.707 ; gain = 164.680
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 7 Post Processing Netlist
+Phase 7 Post Processing Netlist | Checksum: 196e25c1a
+
+Time (s): cpu = 00:00:52 ; elapsed = 00:01:31 . Memory (MB): peak = 2729.707 ; gain = 164.680
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Post Processing Netlist, 166 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |             505  |            1167  |                                            222  |
+|  Constant propagation         |             723  |            1744  |                                            196  |
+|  Sweep                        |               0  |            1358  |                                           4815  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                            166  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.152 . Memory (MB): peak = 2729.707 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 1030d92c2
+
+Time (s): cpu = 00:00:56 ; elapsed = 00:01:35 . Memory (MB): peak = 2729.707 ; gain = 164.680
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 114 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Pwropt 34-201] Structural ODC has moved 62 WE to EN ports
+Number of BRAM Ports augmented: 122 newly gated: 62 Total Ports: 228
+Ending PowerOpt Patch Enables Task | Checksum: 17a19492e
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:10 . Memory (MB): peak = 3333.109 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 17a19492e
+
+Time (s): cpu = 00:00:55 ; elapsed = 00:00:30 . Memory (MB): peak = 3333.109 ; gain = 603.402
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 17a19492e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3333.109 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.101 . Memory (MB): peak = 3333.109 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: dd31da32
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.102 . Memory (MB): peak = 3333.109 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+110 Infos, 132 Warnings, 110 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:02:06 ; elapsed = 00:02:15 . Memory (MB): peak = 3333.109 ; gain = 942.914
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.133 . Memory (MB): peak = 3333.109 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'E:/vivado_axidma3/uav_sar.runs/impl_1/uav_sar_wrapper_opt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:28 ; elapsed = 00:00:17 . Memory (MB): peak = 3333.109 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_drc -file uav_sar_wrapper_drc_opted.rpt -pb uav_sar_wrapper_drc_opted.pb -rpx uav_sar_wrapper_drc_opted.rpx
+Command: report_drc -file uav_sar_wrapper_drc_opted.rpt -pb uav_sar_wrapper_drc_opted.pb -rpx uav_sar_wrapper_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file E:/vivado_axidma3/uav_sar.runs/impl_1/uav_sar_wrapper_drc_opted.rpt.
+report_drc completed successfully
+INFO: [Chipscope 16-240] Debug cores have already been implemented
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu2cg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu2cg'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.037 . Memory (MB): peak = 3333.109 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 8c297a9d
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.075 . Memory (MB): peak = 3333.109 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 3333.109 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 27a8cf71
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:32 . Memory (MB): peak = 3880.133 ; gain = 547.023
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 7cbdd3e4
+
+Time (s): cpu = 00:00:53 ; elapsed = 00:00:47 . Memory (MB): peak = 3880.133 ; gain = 547.023
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 7cbdd3e4
+
+Time (s): cpu = 00:00:53 ; elapsed = 00:00:47 . Memory (MB): peak = 3880.133 ; gain = 547.023
+Phase 1 Placer Initialization | Checksum: 7cbdd3e4
+
+Time (s): cpu = 00:00:53 ; elapsed = 00:00:47 . Memory (MB): peak = 3880.133 ; gain = 547.023
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+
+Phase 2.1.1 Partition Driven Placement
+
+Phase 2.1.1.1 PBP: Partition Driven Placement
+Phase 2.1.1.1 PBP: Partition Driven Placement | Checksum: cdb81c5b
+
+Time (s): cpu = 00:01:21 ; elapsed = 00:01:05 . Memory (MB): peak = 3880.133 ; gain = 547.023
+
+Phase 2.1.1.2 PBP: Clock Region Placement
+Phase 2.1.1.2 PBP: Clock Region Placement | Checksum: 1354fa825
+
+Time (s): cpu = 00:01:22 ; elapsed = 00:01:06 . Memory (MB): peak = 3880.133 ; gain = 547.023
+
+Phase 2.1.1.3 PBP: Discrete Incremental
+Phase 2.1.1.3 PBP: Discrete Incremental | Checksum: 1abd5f784
+
+Time (s): cpu = 00:01:22 ; elapsed = 00:01:06 . Memory (MB): peak = 3880.133 ; gain = 547.023
+
+Phase 2.1.1.4 PBP: Compute Congestion
+Phase 2.1.1.4 PBP: Compute Congestion | Checksum: 1abd5f784
+
+Time (s): cpu = 00:01:23 ; elapsed = 00:01:07 . Memory (MB): peak = 3880.133 ; gain = 547.023
+
+Phase 2.1.1.5 PBP: Macro Placement
+Phase 2.1.1.5 PBP: Macro Placement | Checksum: 112e81f7f
+
+Time (s): cpu = 00:01:24 ; elapsed = 00:01:08 . Memory (MB): peak = 3880.133 ; gain = 547.023
+
+Phase 2.1.1.6 PBP: UpdateTiming
+Phase 2.1.1.6 PBP: UpdateTiming | Checksum: 1724f88a4
+
+Time (s): cpu = 00:01:27 ; elapsed = 00:01:10 . Memory (MB): peak = 3880.133 ; gain = 547.023
+
+Phase 2.1.1.7 PBP: Add part constraints
+Phase 2.1.1.7 PBP: Add part constraints | Checksum: 1724f88a4
+
+Time (s): cpu = 00:01:27 ; elapsed = 00:01:10 . Memory (MB): peak = 3880.133 ; gain = 547.023
+Phase 2.1.1 Partition Driven Placement | Checksum: 1724f88a4
+
+Time (s): cpu = 00:01:27 ; elapsed = 00:01:10 . Memory (MB): peak = 3880.133 ; gain = 547.023
+Phase 2.1 Floorplanning | Checksum: 105ef5f6f
+
+Time (s): cpu = 00:01:28 ; elapsed = 00:01:10 . Memory (MB): peak = 3880.133 ; gain = 547.023
+
+Phase 2.2 Global Placement Core
+
+Phase 2.2.1 Physical Synthesis In Placer
+INFO: [Physopt 32-1035] Found 52 LUTNM shape to break, 1052 LUT instances to create LUTNM shape
+INFO: [Physopt 32-1044] Break lutnm for timing: one critical 3, two critical 49, total 52, new lutff created 0
+INFO: [Physopt 32-775] End 1 Pass. Optimized 484 nets or cells. Created 52 new cells, deleted 432 existing cells and moved 0 existing cell
+INFO: [Physopt 32-65] No nets found for high-fanout optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-456] No candidate cells for DSP register optimization found in the design.
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-1123] No candidate cells found for Shift Register to Pipeline optimization
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 3880.133 ; gain = 0.000
+INFO: [Physopt 32-526] No candidate cells for BRAM register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-846] No candidate cells for URAM register optimization found in the design
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-949] No candidate nets found for HD net replication
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 3880.133 ; gain = 0.000
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization                                     |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  LUT Combining                                    |           52  |            432  |                   484  |           0  |           1  |  00:00:02  |
+|  Very High Fanout                                 |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  DSP Register                                     |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Shift Register to Pipeline                       |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Shift Register                                   |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  BRAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  URAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Dynamic/Static Region Interface Net Replication  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total                                            |           52  |            432  |                   484  |           0  |           8  |  00:00:02  |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.2.1 Physical Synthesis In Placer | Checksum: 282605882
+
+Time (s): cpu = 00:02:31 ; elapsed = 00:01:55 . Memory (MB): peak = 3880.133 ; gain = 547.023
+Phase 2.2 Global Placement Core | Checksum: 29a094ed3
+
+Time (s): cpu = 00:02:34 ; elapsed = 00:01:57 . Memory (MB): peak = 3880.133 ; gain = 547.023
+Phase 2 Global Placement | Checksum: 29a094ed3
+
+Time (s): cpu = 00:02:34 ; elapsed = 00:01:57 . Memory (MB): peak = 3880.133 ; gain = 547.023
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 2b0b0ea6b
+
+Time (s): cpu = 00:02:37 ; elapsed = 00:02:00 . Memory (MB): peak = 3880.133 ; gain = 547.023
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 122d921e9
+
+Time (s): cpu = 00:02:44 ; elapsed = 00:02:05 . Memory (MB): peak = 3880.133 ; gain = 547.023
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 1b2ddebab
+
+Time (s): cpu = 00:02:45 ; elapsed = 00:02:06 . Memory (MB): peak = 3880.133 ; gain = 547.023
+
+Phase 3.4 IO Cut Optimizer
+Phase 3.4 IO Cut Optimizer | Checksum: 1c80471a4
+
+Time (s): cpu = 00:02:46 ; elapsed = 00:02:07 . Memory (MB): peak = 3880.133 ; gain = 547.023
+
+Phase 3.5 Fast Optimization
+Phase 3.5 Fast Optimization | Checksum: 2017d0cee
+
+Time (s): cpu = 00:02:53 ; elapsed = 00:02:14 . Memory (MB): peak = 3880.133 ; gain = 547.023
+
+Phase 3.6 Small Shape DP
+
+Phase 3.6.1 Small Shape Clustering
+Phase 3.6.1 Small Shape Clustering | Checksum: 193aba0b0
+
+Time (s): cpu = 00:02:57 ; elapsed = 00:02:16 . Memory (MB): peak = 3880.133 ; gain = 547.023
+
+Phase 3.6.2 Flow Legalize Slice Clusters
+Phase 3.6.2 Flow Legalize Slice Clusters | Checksum: 175b676dc
+
+Time (s): cpu = 00:02:57 ; elapsed = 00:02:17 . Memory (MB): peak = 3880.133 ; gain = 547.023
+
+Phase 3.6.3 Slice Area Swap
+Phase 3.6.3 Slice Area Swap | Checksum: 12622f735
+
+Time (s): cpu = 00:03:01 ; elapsed = 00:02:22 . Memory (MB): peak = 3880.133 ; gain = 547.023
+Phase 3.6 Small Shape DP | Checksum: 1f400687d
+
+Time (s): cpu = 00:03:10 ; elapsed = 00:02:27 . Memory (MB): peak = 3880.133 ; gain = 547.023
+
+Phase 3.7 Re-assign LUT pins
+Phase 3.7 Re-assign LUT pins | Checksum: 14268d051
+
+Time (s): cpu = 00:03:13 ; elapsed = 00:02:31 . Memory (MB): peak = 3880.133 ; gain = 547.023
+
+Phase 3.8 Pipeline Register Optimization
+Phase 3.8 Pipeline Register Optimization | Checksum: 28a9d6dd7
+
+Time (s): cpu = 00:03:14 ; elapsed = 00:02:32 . Memory (MB): peak = 3880.133 ; gain = 547.023
+Phase 3 Detail Placement | Checksum: 28a9d6dd7
+
+Time (s): cpu = 00:03:14 ; elapsed = 00:02:33 . Memory (MB): peak = 3880.133 ; gain = 547.023
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 18bd6094a
+
+Phase 4.1.1.1 BUFG Insertion
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.810 | TNS=-15.197 |
+Phase 1 Physical Synthesis Initialization | Checksum: 11d0f3952
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 3880.133 ; gain = 0.000
+INFO: [Physopt 32-712] Optimization is not feasible on net adc_rst_n due to MARK_DEBUG attribute.
+INFO: [Place 46-32] Processed net uav_sar_i/zynq_ultra_pl/proc_sys_reset/U0/peripheral_aresetn[0], BUFG insertion was skipped because the netlist could not be updated.
+INFO: [Place 46-56] BUFG insertion identified 1 candidate nets. Inserted BUFG: 0, Replicated BUFG Driver: 0, Skipped due to Placement/Routing Conflicts: 0, Skipped due to Timing Degradation: 0, Skipped due to Illegal Netlist: 1.
+Ending Physical Synthesis Task | Checksum: 22b032f2b
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 3880.133 ; gain = 0.000
+Phase 4.1.1.1 BUFG Insertion | Checksum: 18bd6094a
+
+Time (s): cpu = 00:03:36 ; elapsed = 00:02:48 . Memory (MB): peak = 3880.133 ; gain = 547.023
+INFO: [Place 30-746] Post Placement Timing Summary WNS=0.502. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: 2488e32b7
+
+Time (s): cpu = 00:04:09 ; elapsed = 00:03:14 . Memory (MB): peak = 3880.133 ; gain = 547.023
+Phase 4.1 Post Commit Optimization | Checksum: 2488e32b7
+
+Time (s): cpu = 00:04:09 ; elapsed = 00:03:14 . Memory (MB): peak = 3880.133 ; gain = 547.023
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 2488e32b7
+
+Time (s): cpu = 00:04:10 ; elapsed = 00:03:15 . Memory (MB): peak = 3880.133 ; gain = 547.023
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.035 . Memory (MB): peak = 3880.133 ; gain = 0.000
+
+Phase 4.3 Placer Reporting
+Phase 4.3 Placer Reporting | Checksum: 2aae41235
+
+Time (s): cpu = 00:04:12 ; elapsed = 00:03:18 . Memory (MB): peak = 3880.133 ; gain = 547.023
+
+Phase 4.4 Final Placement Cleanup
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 3880.133 ; gain = 0.000
+Phase 4.4 Final Placement Cleanup | Checksum: 2fc2bbcd7
+
+Time (s): cpu = 00:04:13 ; elapsed = 00:03:18 . Memory (MB): peak = 3880.133 ; gain = 547.023
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 2fc2bbcd7
+
+Time (s): cpu = 00:04:13 ; elapsed = 00:03:18 . Memory (MB): peak = 3880.133 ; gain = 547.023
+Ending Placer Task | Checksum: 234070a6c
+
+Time (s): cpu = 00:04:13 ; elapsed = 00:03:18 . Memory (MB): peak = 3880.133 ; gain = 547.023
+INFO: [Common 17-83] Releasing license: Implementation
+151 Infos, 132 Warnings, 110 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:04:20 ; elapsed = 00:03:23 . Memory (MB): peak = 3880.133 ; gain = 547.023
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:07 ; elapsed = 00:00:02 . Memory (MB): peak = 3880.133 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'E:/vivado_axidma3/uav_sar.runs/impl_1/uav_sar_wrapper_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:17 ; elapsed = 00:00:09 . Memory (MB): peak = 3880.133 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_io -file uav_sar_wrapper_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.093 . Memory (MB): peak = 3880.133 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file uav_sar_wrapper_utilization_placed.rpt -pb uav_sar_wrapper_utilization_placed.pb
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file uav_sar_wrapper_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.118 . Memory (MB): peak = 3880.133 ; gain = 0.000
+Command: phys_opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu2cg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu2cg'
+INFO: [Vivado_Tcl 4-383] Design worst setup slack (WNS) is greater than or equal to 0.000 ns. Skipping all physical synthesis optimizations.
+INFO: [Vivado_Tcl 4-232] No setup violation found. The netlist was not modified.
+INFO: [Common 17-83] Releasing license: Implementation
+160 Infos, 132 Warnings, 110 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+phys_opt_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:12 . Memory (MB): peak = 3880.133 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:10 ; elapsed = 00:00:03 . Memory (MB): peak = 3880.133 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'E:/vivado_axidma3/uav_sar.runs/impl_1/uav_sar_wrapper_physopt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:21 ; elapsed = 00:00:11 . Memory (MB): peak = 3880.133 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu2cg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu2cg'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: f0ec3f05 ConstDB: 0 ShapeSum: e0c4ebe9 RouteDB: 6255df7e
+
+Phase 1 Build RT Design
+Nodegraph reading from file.  Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.933 . Memory (MB): peak = 3880.133 ; gain = 0.000
+Phase 1 Build RT Design | Checksum: 1a404ad2c
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:27 . Memory (MB): peak = 3880.133 ; gain = 0.000
+Post Restoration Checksum: NetGraph: d0d8bfab NumContArr: fc4ce331 Constraints: 670d6e6c Timing: 0
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: 234331148
+
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:28 . Memory (MB): peak = 3880.133 ; gain = 0.000
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: 234331148
+
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:28 . Memory (MB): peak = 3880.133 ; gain = 0.000
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: 234331148
+
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:28 . Memory (MB): peak = 3880.133 ; gain = 0.000
+
+Phase 2.4 Global Clock Net Routing
+ Number of Nodes with overlaps = 0
+Phase 2.4 Global Clock Net Routing | Checksum: 212173897
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:31 . Memory (MB): peak = 3880.133 ; gain = 0.000
+
+Phase 2.5 Update Timing
+Phase 2.5 Update Timing | Checksum: 29239dea0
+
+Time (s): cpu = 00:00:49 ; elapsed = 00:00:45 . Memory (MB): peak = 3880.133 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.259  | TNS=0.000  | WHS=-0.881 | THS=-104.603|
+
+
+Phase 2.6 Update Timing for Bus Skew
+
+Phase 2.6.1 Update Timing
+Phase 2.6.1 Update Timing | Checksum: 1c060c7e5
+
+Time (s): cpu = 00:01:19 ; elapsed = 00:01:04 . Memory (MB): peak = 3880.133 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.259  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 2.6 Update Timing for Bus Skew | Checksum: 21c037ad4
+
+Time (s): cpu = 00:01:20 ; elapsed = 00:01:04 . Memory (MB): peak = 3880.133 ; gain = 0.000
+Phase 2 Router Initialization | Checksum: 2957ff24b
+
+Time (s): cpu = 00:01:20 ; elapsed = 00:01:04 . Memory (MB): peak = 3880.133 ; gain = 0.000
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.00286071 %
+  Global Horizontal Routing Utilization  = 0.000656685 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 36456
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 32779
+  Number of Partially Routed Nets     = 3677
+  Number of Node Overlaps             = 0
+
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 1883c372b
+
+Time (s): cpu = 00:01:38 ; elapsed = 00:01:16 . Memory (MB): peak = 3880.133 ; gain = 0.000
+
+INFO: [Route 35-449] Initial Estimated Congestion
+ ________________________________________________________________________
+|           | Global Congestion | Long Congestion   | Short Congestion  |
+|           |___________________|___________________|___________________|
+| Direction | Size   | % Tiles  | Size   | % Tiles  | Size   | % Tiles  |
+|___________|________|__________|________|__________|________|__________|
+|      NORTH|     4x4|      0.15|     2x2|      0.08|     8x8|      0.69|
+|___________|________|__________|________|__________|________|__________|
+|      SOUTH|     4x4|      0.29|     1x1|      0.02|     8x8|      1.11|
+|___________|________|__________|________|__________|________|__________|
+|       EAST|     8x8|      1.16|     2x2|      0.34|   16x16|      2.26|
+|___________|________|__________|________|__________|________|__________|
+|       WEST|     2x2|      0.07|     1x1|      0.00|     4x4|      0.62|
+|___________|________|__________|________|__________|________|__________|
+Congestion Report
+SHORT Congestion bounded by tiles (Lower Left Tile -> Upper Right Tile):
+EAST
+	INT_X2Y157->INT_X17Y172 (BRAM_X2Y155->CLEL_R_X17Y172)
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 9725
+ Number of Nodes with overlaps = 1754
+ Number of Nodes with overlaps = 633
+ Number of Nodes with overlaps = 341
+ Number of Nodes with overlaps = 162
+ Number of Nodes with overlaps = 117
+ Number of Nodes with overlaps = 74
+ Number of Nodes with overlaps = 44
+ Number of Nodes with overlaps = 19
+ Number of Nodes with overlaps = 8
+ Number of Nodes with overlaps = 3
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-1.889 | TNS=-87.430| WHS=-1.624 | THS=-16.726|
+
+Phase 4.1 Global Iteration 0 | Checksum: 211da1a57
+
+Time (s): cpu = 00:03:49 ; elapsed = 00:02:43 . Memory (MB): peak = 3880.133 ; gain = 0.000
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 3649
+ Number of Nodes with overlaps = 626
+ Number of Nodes with overlaps = 335
+ Number of Nodes with overlaps = 194
+ Number of Nodes with overlaps = 99
+ Number of Nodes with overlaps = 62
+ Number of Nodes with overlaps = 25
+ Number of Nodes with overlaps = 13
+ Number of Nodes with overlaps = 8
+ Number of Nodes with overlaps = 4
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 3
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-1.514 | TNS=-72.238| WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: 28c91e0a1
+
+Time (s): cpu = 00:04:41 ; elapsed = 00:03:24 . Memory (MB): peak = 3880.133 ; gain = 0.000
+
+Phase 4.3 Global Iteration 2
+ Number of Nodes with overlaps = 2933
+ Number of Nodes with overlaps = 663
+ Number of Nodes with overlaps = 306
+ Number of Nodes with overlaps = 214
+ Number of Nodes with overlaps = 128
+ Number of Nodes with overlaps = 78
+ Number of Nodes with overlaps = 42
+ Number of Nodes with overlaps = 17
+ Number of Nodes with overlaps = 13
+ Number of Nodes with overlaps = 4
+ Number of Nodes with overlaps = 4
+ Number of Nodes with overlaps = 4
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-1.589 | TNS=-64.636| WHS=N/A    | THS=N/A    |
+
+Phase 4.3 Global Iteration 2 | Checksum: 1ca44dc33
+
+Time (s): cpu = 00:05:49 ; elapsed = 00:04:15 . Memory (MB): peak = 3880.133 ; gain = 0.000
+Phase 4 Rip-up And Reroute | Checksum: 1ca44dc33
+
+Time (s): cpu = 00:05:49 ; elapsed = 00:04:15 . Memory (MB): peak = 3880.133 ; gain = 0.000
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 1ddade57d
+
+Time (s): cpu = 00:06:02 ; elapsed = 00:04:23 . Memory (MB): peak = 3880.133 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-1.514 | TNS=-72.238| WHS=-1.624 | THS=-3.079 |
+
+ Number of Nodes with overlaps = 0
+Phase 5.1 Delay CleanUp | Checksum: 2e8422b83
+
+Time (s): cpu = 00:06:05 ; elapsed = 00:04:25 . Memory (MB): peak = 3880.133 ; gain = 0.000
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 2e8422b83
+
+Time (s): cpu = 00:06:05 ; elapsed = 00:04:26 . Memory (MB): peak = 3880.133 ; gain = 0.000
+Phase 5 Delay and Skew Optimization | Checksum: 2e8422b83
+
+Time (s): cpu = 00:06:05 ; elapsed = 00:04:26 . Memory (MB): peak = 3880.133 ; gain = 0.000
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 38109ff59
+
+Time (s): cpu = 00:06:14 ; elapsed = 00:04:32 . Memory (MB): peak = 3880.133 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-1.356 | TNS=-61.546| WHS=-1.624 | THS=-3.079 |
+
+
+Phase 6.1.2 Lut RouteThru Assignment for hold
+Phase 6.1.2 Lut RouteThru Assignment for hold | Checksum: 2b5aec7ef
+
+Time (s): cpu = 00:06:16 ; elapsed = 00:04:34 . Memory (MB): peak = 3880.133 ; gain = 0.000
+Phase 6.1 Hold Fix Iter | Checksum: 2b5aec7ef
+
+Time (s): cpu = 00:06:16 ; elapsed = 00:04:34 . Memory (MB): peak = 3880.133 ; gain = 0.000
+
+Phase 6.2 Additional Hold Fix
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-1.356 | TNS=-61.546| WHS=-1.624 | THS=-3.079 |
+
+Phase 6.2 Additional Hold Fix | Checksum: 271388d95
+
+Time (s): cpu = 00:06:27 ; elapsed = 00:04:42 . Memory (MB): peak = 3880.133 ; gain = 0.000
+ Number of Nodes with overlaps = 0
+Phase 6 Post Hold Fix | Checksum: 2061077fc
+
+Time (s): cpu = 00:06:39 ; elapsed = 00:04:51 . Memory (MB): peak = 3880.133 ; gain = 0.000
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 7.95659 %
+  Global Horizontal Routing Utilization  = 8.99552 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Congestion Report
+North Dir 1x1 Area, Max Cong = 61.5023%, No Congested Regions.
+South Dir 1x1 Area, Max Cong = 66.8246%, No Congested Regions.
+East Dir 1x1 Area, Max Cong = 95.1923%, Congestion bounded by tiles (Lower Left Tile -> Upper Right Tile):
+   INT_X3Y163 -> INT_X3Y163
+West Dir 1x1 Area, Max Cong = 58.6538%, No Congested Regions.
+
+------------------------------
+Reporting congestion hotspots
+------------------------------
+Direction: North
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: South
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: East
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 1
+Direction: West
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+
+Phase 7 Route finalize | Checksum: 2336790a9
+
+Time (s): cpu = 00:06:40 ; elapsed = 00:04:51 . Memory (MB): peak = 3880.133 ; gain = 0.000
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 2336790a9
+
+Time (s): cpu = 00:06:40 ; elapsed = 00:04:52 . Memory (MB): peak = 3880.133 ; gain = 0.000
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 2336790a9
+
+Time (s): cpu = 00:06:45 ; elapsed = 00:04:58 . Memory (MB): peak = 3880.133 ; gain = 0.000
+
+Phase 10 Post Router Timing
+
+Phase 10.1 Update Timing
+Phase 10.1 Update Timing | Checksum: 2a549d3a7
+
+Time (s): cpu = 00:06:52 ; elapsed = 00:05:03 . Memory (MB): peak = 3880.133 ; gain = 0.000
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-1.356 | TNS=-61.546| WHS=-1.624 | THS=-3.079 |
+
+WARNING: [Route 35-328] Router estimated timing not met.
+Resolution: For a complete and accurate timing signoff, report_timing_summary must be run after route_design. Alternatively, route_design can be run with the -timing_summary option to enable a complete timing signoff at the end of route_design.
+Phase 10 Post Router Timing | Checksum: 2a549d3a7
+
+Time (s): cpu = 00:06:52 ; elapsed = 00:05:03 . Memory (MB): peak = 3880.133 ; gain = 0.000
+Time taken to check if laguna hold fix is required (in secs): 0
+
+Phase 11 Physical Synthesis in Router
+
+Phase 11.1 Physical Synthesis Initialization
+INFO: [Physopt 32-668] Current Timing Summary | WNS=-1.326 | TNS=-59.728 | WHS=-1.624 | THS=-3.079 |
+Phase 11.1 Physical Synthesis Initialization | Checksum: 2a549d3a7
+
+Time (s): cpu = 00:07:19 ; elapsed = 00:05:19 . Memory (MB): peak = 3880.133 ; gain = 0.000
+WARNING: [Physopt 32-745] Physical Optimization has determined that the magnitude of the negative slack is too large and it is highly unlikely that slack will be improved. Post-Route Physical Optimization is most effective when WNS is above -0.5ns
+
+Phase 11.2 Critical Path Optimization
+INFO: [Physopt 32-668] Current Timing Summary | WNS=-1.326 | TNS=-59.728 | WHS=-1.624 | THS=-3.079 |
+INFO: [Physopt 32-952] Improved path group WNS = -1.314. Path group: clk_out1_uav_sar_clk_wiz_0_0. Processed net: uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/slv_reg1[17].
+INFO: [Physopt 32-952] Improved path group WNS = -1.313. Path group: clk_out1_uav_sar_clk_wiz_0_0. Processed net: u_ila_0/inst/ila_core_inst/u_trig/U_TM/N_DDR_MODE.G_NMU[45].U_M/allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/all_in[66].
+INFO: [Physopt 32-952] Improved path group WNS = -1.306. Path group: clk_out1_uav_sar_clk_wiz_0_0. Processed net: u_ila_0/inst/ila_core_inst/shifted_data_in_reg[7][1169]_srl8_n_0.
+INFO: [Physopt 32-952] Improved path group WNS = -1.272. Path group: clk_out1_uav_sar_clk_wiz_0_0. Processed net: u_ila_0/inst/ila_core_inst/shifted_data_in_reg[7][1146]_srl8_n_0.
+INFO: [Physopt 32-952] Improved path group WNS = -1.261. Path group: clk_out1_uav_sar_clk_wiz_0_0. Processed net: uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/slv_reg1[17].
+INFO: [Physopt 32-952] Improved path group WNS = -1.261. Path group: clk_out1_uav_sar_clk_wiz_0_0. Processed net: uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/slv_reg1[1].
+INFO: [Physopt 32-952] Improved path group WNS = -1.259. Path group: clk_out1_uav_sar_clk_wiz_0_0. Processed net: u_ila_0/inst/ila_core_inst/u_trig/U_TM/N_DDR_MODE.G_NMU[45].U_M/allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/all_in[66].
+INFO: [Physopt 32-952] Improved path group WNS = -1.252. Path group: clk_out1_uav_sar_clk_wiz_0_0. Processed net: u_ila_0/inst/ila_core_inst/shifted_data_in_reg[7][1169]_srl8_n_0.
+INFO: [Physopt 32-952] Improved path group WNS = -1.243. Path group: clk_out1_uav_sar_clk_wiz_0_0. Processed net: u_ila_0/inst/ila_core_inst/shifted_data_in_reg[7][1146]_srl8_n_0.
+INFO: [Physopt 32-952] Improved path group WNS = -1.201. Path group: clk_out1_uav_sar_clk_wiz_0_0. Processed net: u_ila_0/inst/ila_core_inst/shifted_data_in_reg[7][1162]_srl8_n_0.
+INFO: [Physopt 32-952] Improved path group WNS = -1.190. Path group: clk_out1_uav_sar_clk_wiz_0_0. Processed net: uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/slv_reg1[17].
+INFO: [Physopt 32-952] Improved path group WNS = -1.189. Path group: clk_out1_uav_sar_clk_wiz_0_0. Processed net: u_ila_0/inst/ila_core_inst/u_trig/U_TM/N_DDR_MODE.G_NMU[45].U_M/allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/all_in[66].
+INFO: [Physopt 32-952] Improved path group WNS = -1.188. Path group: clk_out1_uav_sar_clk_wiz_0_0. Processed net: u_ila_0/inst/ila_core_inst/shifted_data_in_reg[7][1162]_srl8_n_0.
+INFO: [Physopt 32-952] Improved path group WNS = -1.187. Path group: clk_out1_uav_sar_clk_wiz_0_0. Processed net: u_ila_0/inst/ila_core_inst/shifted_data_in_reg[7][1169]_srl8_n_0.
+INFO: [Physopt 32-952] Improved path group WNS = -1.181. Path group: clk_out1_uav_sar_clk_wiz_0_0. Processed net: u_ila_0/inst/ila_core_inst/u_trig/U_TM/N_DDR_MODE.G_NMU[45].U_M/allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/all_in[70].
+INFO: [Physopt 32-952] Improved path group WNS = -1.161. Path group: clk_out1_uav_sar_clk_wiz_0_0. Processed net: u_ila_0/inst/ila_core_inst/shifted_data_in_reg[7][1146]_srl8_n_0.
+INFO: [Physopt 32-952] Improved path group WNS = -1.161. Path group: clk_out1_uav_sar_clk_wiz_0_0. Processed net: uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/slv_reg1[18].
+INFO: [Physopt 32-952] Improved path group WNS = -1.134. Path group: clk_out1_uav_sar_clk_wiz_0_0. Processed net: uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/slv_reg1[8].
+INFO: [Physopt 32-952] Improved path group WNS = -1.118. Path group: clk_out1_uav_sar_clk_wiz_0_0. Processed net: u_ila_0/inst/ila_core_inst/u_trig/U_TM/N_DDR_MODE.G_NMU[45].U_M/allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/all_in[70].
+INFO: [Physopt 32-952] Improved path group WNS = -1.109. Path group: clk_out1_uav_sar_clk_wiz_0_0. Processed net: u_ila_0/inst/ila_core_inst/shifted_data_in_reg[7][1162]_srl8_n_0.
+INFO: [Physopt 32-952] Improved path group WNS = -1.107. Path group: clk_out1_uav_sar_clk_wiz_0_0. Processed net: uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/slv_reg1[8].
+INFO: [Physopt 32-952] Improved path group WNS = -1.106. Path group: clk_out1_uav_sar_clk_wiz_0_0. Processed net: uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/slv_reg1[18].
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_out1_uav_sar_clk_wiz_0_0. Processed net: uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/slv_reg1[3].
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_out1_uav_sar_clk_wiz_0_0. Processed net: uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/clk_cnt_reg[24].
+INFO: [Physopt 32-953] Path group WNS did not improve. Path group: clk_out1_uav_sar_clk_wiz_0_0. Processed net: uav_sar_i/zynq_ultra_pl/uart_uav_data_0/inst/uart_uav_data_v1_0_S00_AXI_inst/u_utc_time/align_time[35].
+INFO: [Physopt 32-668] Current Timing Summary | WNS=-1.106 | TNS=-52.815 | WHS=-1.624 | THS=-3.079 |
+Phase 11.2 Critical Path Optimization | Checksum: 1771ddd8c
+
+Time (s): cpu = 00:07:39 ; elapsed = 00:05:33 . Memory (MB): peak = 3880.133 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 3880.133 ; gain = 0.000
+INFO: [Physopt 32-669] Post Physical Optimization Timing Summary | WNS=-1.106 | TNS=-52.815 | WHS=-1.624 | THS=-3.079 |
+Phase 11 Physical Synthesis in Router | Checksum: 1771ddd8c
+
+Time (s): cpu = 00:07:40 ; elapsed = 00:05:34 . Memory (MB): peak = 3880.133 ; gain = 0.000
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:07:40 ; elapsed = 00:05:34 . Memory (MB): peak = 3880.133 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+208 Infos, 134 Warnings, 110 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:07:49 ; elapsed = 00:05:39 . Memory (MB): peak = 3880.133 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:17 ; elapsed = 00:00:06 . Memory (MB): peak = 3880.133 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'E:/vivado_axidma3/uav_sar.runs/impl_1/uav_sar_wrapper_routed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:27 ; elapsed = 00:00:14 . Memory (MB): peak = 3880.133 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_drc -file uav_sar_wrapper_drc_routed.rpt -pb uav_sar_wrapper_drc_routed.pb -rpx uav_sar_wrapper_drc_routed.rpx
+Command: report_drc -file uav_sar_wrapper_drc_routed.rpt -pb uav_sar_wrapper_drc_routed.pb -rpx uav_sar_wrapper_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file E:/vivado_axidma3/uav_sar.runs/impl_1/uav_sar_wrapper_drc_routed.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:18 ; elapsed = 00:00:10 . Memory (MB): peak = 3880.133 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_methodology -file uav_sar_wrapper_methodology_drc_routed.rpt -pb uav_sar_wrapper_methodology_drc_routed.pb -rpx uav_sar_wrapper_methodology_drc_routed.rpx
+Command: report_methodology -file uav_sar_wrapper_methodology_drc_routed.rpt -pb uav_sar_wrapper_methodology_drc_routed.pb -rpx uav_sar_wrapper_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file E:/vivado_axidma3/uav_sar.runs/impl_1/uav_sar_wrapper_methodology_drc_routed.rpt.
+report_methodology completed successfully
+report_methodology: Time (s): cpu = 00:00:34 ; elapsed = 00:00:20 . Memory (MB): peak = 3932.805 ; gain = 52.672
+INFO: [runtcl-4] Executing : report_power -file uav_sar_wrapper_power_routed.rpt -pb uav_sar_wrapper_power_summary_routed.pb -rpx uav_sar_wrapper_power_routed.rpx
+Command: report_power -file uav_sar_wrapper_power_routed.rpt -pb uav_sar_wrapper_power_summary_routed.pb -rpx uav_sar_wrapper_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+220 Infos, 135 Warnings, 110 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+report_power: Time (s): cpu = 00:00:31 ; elapsed = 00:00:20 . Memory (MB): peak = 3939.023 ; gain = 6.219
+INFO: [runtcl-4] Executing : report_route_status -file uav_sar_wrapper_route_status.rpt -pb uav_sar_wrapper_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -file uav_sar_wrapper_timing_summary_routed.rpt -pb uav_sar_wrapper_timing_summary_routed.pb -rpx uav_sar_wrapper_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Temperature grade: E, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+WARNING: [Timing 38-436] There are set_bus_skew constraint(s) in this design. Please run report_bus_skew to ensure that bus skew requirements are met.
+INFO: [runtcl-4] Executing : report_incremental_reuse -file uav_sar_wrapper_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
+INFO: [runtcl-4] Executing : report_clock_utilization -file uav_sar_wrapper_clock_utilization_routed.rpt
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file uav_sar_wrapper_bus_skew_routed.rpt -pb uav_sar_wrapper_bus_skew_routed.pb -rpx uav_sar_wrapper_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Temperature grade: E, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Memdata 28-208] The XPM instance: <uav_sar_i/zynq_ultra_pl/axis_data_fifo_0/inst/gen_fifo.xpm_fifo_axis_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst> is part of IP: <uav_sar_i/zynq_ultra_pl/axis_data_fifo_0>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+INFO: [Memdata 28-167] Found XPM memory block uav_sar_i/zynq_ultra_pl/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to auto. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the uav_sar_i/zynq_ultra_pl/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst block.
+INFO: [Memdata 28-208] The XPM instance: <uav_sar_i/zynq_ultra_pl/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst> is part of IP: <uav_sar_i/zynq_ultra_pl/axi_dma_0>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+INFO: [Memdata 28-167] Found XPM memory block uav_sar_i/zynq_ultra_pl/axi_dma/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to auto. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the uav_sar_i/zynq_ultra_pl/axi_dma/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_XD_FIFO/NON_BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst block.
+INFO: [Memdata 28-208] The XPM instance: <uav_sar_i/zynq_ultra_pl/axi_dma/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst> is part of IP: <uav_sar_i/zynq_ultra_pl/axi_dma>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+INFO: [Memdata 28-208] The XPM instance: <uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl/inst/ad9269_sample_v1_0_S00_AXI_inst/sample_inst/xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst> is part of IP: <uav_sar_i/zynq_ultra_pl/ad9269_sample_ctrl>. This XPM instance will be excluded from the .mmi because updatemem is prohibited from making changes to an XPM that is part of an IP.
+Command: write_bitstream -force uav_sar_wrapper.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xczu2cg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu2cg'
+Running DRC as a precondition to command write_bitstream
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC RTSTAT-10] No routable loads: 31 net(s) have no routable loads. The problem bus(es) and/or net(s) are dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_CTL/ctl_reg[2:0], dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_CTL/ctl_reg_en_2[1], dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD1/ctl_reg_en_2[1], dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/m_bscan_capture[0], dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/m_bscan_drck[0], dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/m_bscan_runtest[0], dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwhf.whf/overflow, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwhf.whf/overflow, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/rd_rst_reg[0], dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_inst/s_bscan_tms, u_ila_0/inst/ila_core_inst/u_ila_regs/U_XSDB_SLAVE/s_daddr_o[13], uav_sar_i/system_ila_1/inst/ila_lib/inst/ila_core_inst/u_ila_regs/U_XSDB_SLAVE/s_daddr_o[13]... and (the first 15 of 29 listed).
+INFO: [DRC REQP-1935] RAMB36E2_nochange_collision_advisory: Synchronous clocking is detected for BRAM (uav_sar_i/zynq_ultra_pl/axi_dma/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg) in SDP mode with NO_CHANGE write-mode. This is the preferred mode for best power characteristics. However, NO_CHANGE may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+INFO: [DRC REQP-1935] RAMB36E2_nochange_collision_advisory: Synchronous clocking is detected for BRAM (uav_sar_i/zynq_ultra_pl/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/gen_wr_a.gen_word_narrow.mem_reg) in SDP mode with NO_CHANGE write-mode. This is the preferred mode for best power characteristics. However, NO_CHANGE may exhibit address collisions if the same address appears on both read and write ports resulting in unknown or corrupted read data. It is suggested to confirm via simulation that an address collision never occurs and if so it is suggested to try and avoid this situation. If address collisions cannot be avoided, the write-mode may be set to READ_FIRST which guarantees that the read data is the prior contents of the memory at the cost of additional power in the design. See the FPGA Memory Resources User Guide for additional information.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 1 Warnings, 2 Advisories
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Designutils 20-2272] Running write_bitstream with 2 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Bitstream compression saved 13813024 bits.
+Writing bitstream ./uav_sar_wrapper.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK part without a full Vivado license. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-83] Releasing license: Implementation
+247 Infos, 137 Warnings, 111 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:01:03 ; elapsed = 00:00:57 . Memory (MB): peak = 4086.684 ; gain = 147.660
+INFO: [Common 17-206] Exiting Vivado at Tue Dec 30 11:32:42 2025...

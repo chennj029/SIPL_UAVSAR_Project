@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_axidma3/uav_sar.srcs/sources_1/ip/fifo_generator_0_1/sim/fifo_generator_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_axidma3/uav_sar.srcs/sources_1/new/uart_rx1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_rx1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/vivado_axidma3/uav_sar.srcs/sim_1/new/tb_uart_rx1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_uart_rx1

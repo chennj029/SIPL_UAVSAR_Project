@@ -1,0 +1,240 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.01, Jan 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Files/uav_sar/vivado_pluart/uav_sar.sim/sim_1/behav/modelsim
+T_opt
+!s110 1732626110
+VY;HfkTI4i]?M3J80`hFU42
+04 11 4 work utc_time_tb fast 0
+Z1 04 4 4 work glbl fast 0
+=1-d843ae291cdc-6745c6be-99-71f0
+Z2 o-quiet -auto_acc_if_foreign -work xil_defaultlib -L xilinx_vip -L xpm -L xil_defaultlib -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip +acc
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;2020.1;71
+T_opt1
+!s110 1732524597
+VBF9OoW]gSD9IZ6d9o5oNL1
+Z5 04 10 4 work uart_rx_tb fast 0
+R1
+=1-d843ae291cdc-67443a34-2fb-aeb0
+R2
+R3
+n@_opt1
+R4
+R0
+T_opt2
+!s110 1732544628
+V2QifPEa91<><^Z`NHzCRi0
+R5
+R1
+=1-d843ae291cdc-67448873-3d1-bd50
+R2
+R3
+n@_opt2
+R4
+R0
+vglbl
+Z6 !s110 1732626103
+!i10b 1
+!s100 ZHmTNm_h3dd`6mIQLzSUN3
+Z7 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IJT>_:<WW6a7KP^k3<8E3=1
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 dE:/Files/uav_sar/vivado_axibram/uav_sar.sim/sim_1/behav/modelsim
+w1590624368
+8glbl.v
+Fglbl.v
+!i122 26
+L0 6 78
+Z10 OL;L;2020.1;71
+r1
+!s85 0
+31
+Z11 !s108 1732626103.000000
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 0
+Z12 o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vpl_uart
+!s10a 1732504364
+Z13 !s110 1732520826
+!i10b 1
+!s100 WDU;PSiNjUcHPR5QTXnYE1
+R7
+IPXolSHo5CkLjGmMT_Znbo1
+R8
+R0
+w1732504364
+8../../../../uav_sar.srcs/sources_1/new/pl_uart.v
+F../../../../uav_sar.srcs/sources_1/new/pl_uart.v
+!i122 5
+L0 23 42
+R10
+r1
+!s85 0
+31
+Z14 !s108 1732520826.000000
+Z15 !s107 ../../../../uav_sar.srcs/sim_1/new/uart_tb.v|../../../../uav_sar.srcs/sources_1/new/uart_tx.v|../../../../uav_sar.srcs/sources_1/new/uart_rx.v|../../../../uav_sar.srcs/sources_1/new/pl_uart.v|
+Z16 !s90 -incr|-work|xil_defaultlib|+incdir+../../../../uav_sar.srcs/sources_1/bd/uav_sar/ipshared/ec67/hdl|+incdir+../../../../uav_sar.srcs/sources_1/bd/uav_sar/ipshared/e257/hdl|+incdir+../../../../uav_sar.srcs/sources_1/bd/uav_sar/ipshared/8713/hdl|+incdir+../../../../uav_sar.srcs/sources_1/bd/uav_sar/ipshared/8b3d|+incdir+E:/Vitis2020/Vivado/2020.1/data/xilinx_vip/include|../../../../uav_sar.srcs/sources_1/new/pl_uart.v|../../../../uav_sar.srcs/sources_1/new/uart_rx.v|../../../../uav_sar.srcs/sources_1/new/uart_tx.v|../../../../uav_sar.srcs/sim_1/new/uart_tb.v|
+!i113 0
+R12
+Z17 !s92 -work xil_defaultlib +incdir+../../../../uav_sar.srcs/sources_1/bd/uav_sar/ipshared/ec67/hdl +incdir+../../../../uav_sar.srcs/sources_1/bd/uav_sar/ipshared/e257/hdl +incdir+../../../../uav_sar.srcs/sources_1/bd/uav_sar/ipshared/8713/hdl +incdir+../../../../uav_sar.srcs/sources_1/bd/uav_sar/ipshared/8b3d +incdir+E:/Vitis2020/Vivado/2020.1/data/xilinx_vip/include -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vuart_rx
+!s10a 1732504372
+R13
+!i10b 1
+!s100 50f6E[X?P^D0Q>6[D7^:90
+R7
+IPE`<k`f5kEW]hbWjiJf3m1
+R8
+R0
+w1732504372
+8../../../../uav_sar.srcs/sources_1/new/uart_rx.v
+F../../../../uav_sar.srcs/sources_1/new/uart_rx.v
+!i122 5
+L0 22 122
+R10
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 0
+R12
+R17
+R3
+vuart_rx_tb
+!s10a 1732524526
+!s110 1732524590
+!i10b 1
+!s100 R7a]NbBfWmjaUU31Yb?Z=1
+R7
+IzDWhME<c?FlAN[<Sm@J>f1
+R8
+R0
+w1732524526
+8../../../../uav_sar.srcs/sim_1/new/uart_rx_tb.v
+F../../../../uav_sar.srcs/sim_1/new/uart_rx_tb.v
+!i122 7
+L0 3 119
+R10
+r1
+!s85 0
+31
+!s108 1732524590.000000
+!s107 ../../../../uav_sar.srcs/sim_1/new/uart_rx_tb.v|../../../../uav_sar.srcs/sources_1/new/uart_rx.v|
+!s90 -incr|-work|xil_defaultlib|+incdir+../../../../uav_sar.srcs/sources_1/bd/uav_sar/ipshared/ec67/hdl|+incdir+../../../../uav_sar.srcs/sources_1/bd/uav_sar/ipshared/e257/hdl|+incdir+../../../../uav_sar.srcs/sources_1/bd/uav_sar/ipshared/8713/hdl|+incdir+../../../../uav_sar.srcs/sources_1/bd/uav_sar/ipshared/8b3d|+incdir+E:/Vitis2020/Vivado/2020.1/data/xilinx_vip/include|../../../../uav_sar.srcs/sources_1/new/uart_rx.v|../../../../uav_sar.srcs/sim_1/new/uart_rx_tb.v|
+!i113 0
+R12
+R17
+R3
+vuart_tb
+!s10a 1732505673
+R13
+!i10b 1
+!s100 PTa1kbK1z@o?b1ciE?Ae`3
+R7
+IabC5WIa>kWkCDIX7KA9UP3
+R8
+R0
+w1732505673
+8../../../../uav_sar.srcs/sim_1/new/uart_tb.v
+F../../../../uav_sar.srcs/sim_1/new/uart_tb.v
+!i122 5
+L0 3 117
+R10
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 0
+R12
+R17
+R3
+vuart_tx
+!s10a 1732504378
+R13
+!i10b 1
+!s100 KA]z6`C>94<5`E<Z9FfZT0
+R7
+IVR`0:g3jPkZ3Fien03ieX1
+R8
+R0
+w1732504378
+8../../../../uav_sar.srcs/sources_1/new/uart_tx.v
+F../../../../uav_sar.srcs/sources_1/new/uart_tx.v
+!i122 5
+L0 22 101
+R10
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 0
+R12
+R17
+R3
+vutc_time
+!s10a 1732624624
+!s110 1732625275
+!i10b 1
+!s100 Le__eKld@JUcG7cnTA1H]2
+R7
+Ik`JF8ZRS1;B[gQ1T=SPDg1
+R8
+R9
+w1732624624
+8../../../../uav_sar.srcs/sources_1/new/utc_time.v
+F../../../../uav_sar.srcs/sources_1/new/utc_time.v
+!i122 23
+L0 1 86
+R10
+r1
+!s85 0
+31
+!s108 1732625275.000000
+Z18 !s107 ../../../../uav_sar.srcs/sim_1/new/utc_time_tb.v|../../../../uav_sar.srcs/sources_1/new/utc_time.v|
+Z19 !s90 -incr|-work|xil_defaultlib|+incdir+../../../../uav_sar.srcs/sources_1/bd/uav_sar/ipshared/ec67/hdl|+incdir+../../../../uav_sar.srcs/sources_1/bd/uav_sar/ipshared/e257/hdl|+incdir+../../../../uav_sar.srcs/sources_1/bd/uav_sar/ipshared/8713/hdl|+incdir+../../../../uav_sar.srcs/sources_1/bd/uav_sar/ipshared/8b3d|+incdir+E:/Vitis2020/Vivado/2020.1/data/xilinx_vip/include|../../../../uav_sar.srcs/sources_1/new/utc_time.v|../../../../uav_sar.srcs/sim_1/new/utc_time_tb.v|
+!i113 0
+R12
+R17
+R3
+vutc_time_tb
+R6
+!i10b 1
+!s100 9C007ZdX2dWz8=b0GR`IU2
+R7
+IASdUeLB^[c:zO6JZXY>aJ1
+R8
+R9
+w1732626095
+8../../../../uav_sar.srcs/sim_1/new/utc_time_tb.v
+F../../../../uav_sar.srcs/sim_1/new/utc_time_tb.v
+!i122 25
+L0 3 141
+R10
+r1
+!s85 0
+31
+R11
+R18
+R19
+!i113 0
+R12
+R17
+R3

@@ -1,0 +1,198 @@
+#-----------------------------------------------------------
+# Vivado v2020.1_AR75502 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat Mar 28 20:45:13 2026
+# Process ID: 66784
+# Current directory: D:/Files/postgraduate/thesis/code/UAV-SAR code/vivado_axidma3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent43932 D:\Files\postgraduate\thesis\code\UAV-SAR code\vivado_axidma3\uav_sar.xpr
+# Log file: D:/Files/postgraduate/thesis/code/UAV-SAR code/vivado_axidma3/vivado.log
+# Journal file: D:/Files/postgraduate/thesis/code/UAV-SAR code/vivado_axidma3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Files/postgraduate/thesis/code/UAV-SAR code/vivado_axidma3/uav_sar.xpr}
+INFO: [Project 1-313] Project file moved from 'E:/vivado_axidma3' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/Files/postgraduate/thesis/code/UAV-SAR code/vivado_axidma3/tb_adc_dma_behav.wcfg', nor could it be found using path 'E:/vivado_axidma3/tb_adc_dma_behav.wcfg'.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'D:/Files/postgraduate/thesis/code/UAV-SAR code/ip_repo/myip_1.0', nor could it be found using path 'E:/ip_repo/myip_1.0'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'D:/Files/postgraduate/thesis/code/UAV-SAR code/ip_repo/uart_uav_data_1.0', nor could it be found using path 'E:/ip_repo/uart_uav_data_1.0'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'D:/Files/postgraduate/thesis/code/UAV-SAR code/vivado_axidma3/repo/nav_data_rd_1.0', nor could it be found using path 'E:/vivado_axidma3/repo/nav_data_rd_1.0'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/Files/postgraduate/thesis/code/UAV-SAR code/ip_repo/myip_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/Files/postgraduate/thesis/code/UAV-SAR code/ip_repo/uart_uav_data_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/Files/postgraduate/thesis/code/UAV-SAR code/vivado_axidma3/repo/uart_uav_data_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/Files/postgraduate/thesis/code/UAV-SAR code/vivado_axidma3/repo/uart_uav_data_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/Files/postgraduate/thesis/code/UAV-SAR code/vivado_axidma3/repo/uart_uav_data_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/Files/postgraduate/thesis/code/UAV-SAR code/vivado_axidma3/repo/pl_bram_rd_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/Files/postgraduate/thesis/code/UAV-SAR code/vivado_axidma3/repo/nav_data_rd_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Files/postgraduate/thesis/code/UAV-SAR code/vivado_axidma3/repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vitis2020/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1057.523 ; gain = 0.000
+update_compile_order -fileset sources_1
+open_bd_design {D:/Files/postgraduate/thesis/code/UAV-SAR code/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/uav_sar.bd}
+Adding component instance block -- xilinx.com:ip:zynq_ultra_ps_e:3.3 - zynq_ultra_ps
+Adding component instance block -- xilinx.com:ip:clk_wiz:6.0 - clk_wiz
+Adding component instance block -- xilinx.com:ip:util_ds_buf:2.1 - util_ds_buf
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - axis_data_fifo_0
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_0
+Adding component instance block -- xilinx.com:ip:axi_data_fifo:2.1 - axi_data_fifo
+Adding component instance block -- xilinx.com:ip:axi_data_fifo:2.1 - axi_data_fifo_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_interconnect_0
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_interconnect_1
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding component instance block -- xilinx.com:user:ad9269_sample_ctrl:1.0 - ad9269_sample_ctrl
+Adding component instance block -- xilinx.com:user:uart_uav_data:1.0 - uart_uav_data_0
+Adding component instance block -- xilinx.com:ip:system_ila:1.1 - system_ila_1
+Excluding slave segment /zynq_ultra_ps/SAXIGP2/HP0_LPS_OCM from address space /zynq_ultra_pl/axi_dma/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps/SAXIGP2/HP0_LPS_OCM from address space /zynq_ultra_pl/axi_dma_0/Data_S2MM.
+Successfully read diagram <uav_sar> from BD file <D:/Files/postgraduate/thesis/code/UAV-SAR code/vivado_axidma3/uav_sar.srcs/sources_1/bd/uav_sar/uav_sar.bd>
+regenerate_bd_layout -routing
+regenerate_bd_layout -routing
+disconnect_bd_net /zynq_ultra_pl_aclk [get_bd_pins system_ila_1/clk]
+disconnect_bd_net /axi_dma_0_s2mm_introut [get_bd_pins system_ila_1/probe0]
+delete_bd_objs [get_bd_cells system_ila_1]
+regenerate_bd_layout -routing
+delete_bd_objs [get_bd_pins zynq_ultra_pl/aresetn]
+move_bd_cells [get_bd_cells /] [get_bd_cells zynq_ultra_pl/uart_uav_data_0]
+set_property location {1 826 263} [get_bd_cells uart_uav_data_0]
+set_property location {1 977 -424} [get_bd_cells uart_uav_data_0]
+undo
+INFO: [Common 17-17] undo 'set_property location {1 977 -424} [get_bd_cells uart_uav_data_0]'
+undo
+INFO: [Common 17-17] undo 'set_property location {1 826 263} [get_bd_cells uart_uav_data_0]'
+undo
+INFO: [Common 17-17] undo 'move_bd_cells [get_bd_cells /] [get_bd_cells zynq_ultra_pl/uart_uav_data_0]'
+move_bd_cells [get_bd_cells /] [get_bd_cells zynq_ultra_pl/axi_interconnect_0]
+undo
+INFO: [Common 17-17] undo 'move_bd_cells [get_bd_cells /] [get_bd_cells zynq_ultra_pl/axi_interconnect_0]'
+move_bd_cells [get_bd_cells /] [get_bd_cells zynq_ultra_pl/uart_uav_data_0]
+undo
+INFO: [Common 17-17] undo 'move_bd_cells [get_bd_cells /] [get_bd_cells zynq_ultra_pl/uart_uav_data_0]'
+move_bd_cells [get_bd_cells /] [get_bd_cells zynq_ultra_pl/uart_uav_data_0]
+undo
+INFO: [Common 17-17] undo 'move_bd_cells [get_bd_cells /] [get_bd_cells zynq_ultra_pl/uart_uav_data_0]'
+move_bd_cells [get_bd_cells /] [get_bd_cells zynq_ultra_pl/ad9269_sample_ctrl]
+undo
+INFO: [Common 17-17] undo 'move_bd_cells [get_bd_cells /] [get_bd_cells zynq_ultra_pl/ad9269_sample_ctrl]'
+regenerate_bd_layout -routing
+regenerate_bd_layout -routing
+move_bd_cells [get_bd_cells /] [get_bd_cells zynq_ultra_pl/axi_data_fifo_0]
+undo
+INFO: [Common 17-17] undo 'move_bd_cells [get_bd_cells /] [get_bd_cells zynq_ultra_pl/axi_data_fifo_0]'
+move_bd_cells [get_bd_cells /] [get_bd_cells zynq_ultra_pl/axi_interconnect_1]
+undo
+INFO: [Common 17-17] undo 'move_bd_cells [get_bd_cells /] [get_bd_cells zynq_ultra_pl/axi_interconnect_1]'
+move_bd_cells [get_bd_cells /] [get_bd_cells zynq_ultra_pl/axi_interconnect_1]
+undo
+INFO: [Common 17-17] undo 'move_bd_cells [get_bd_cells /] [get_bd_cells zynq_ultra_pl/axi_interconnect_1]'
+regenerate_bd_layout -routing
+regenerate_bd_layout -routing
+regenerate_bd_layout -routing
+move_bd_cells [get_bd_cells /] [get_bd_cells zynq_ultra_pl/axi_dma]
+undo
+INFO: [Common 17-17] undo 'move_bd_cells [get_bd_cells /] [get_bd_cells zynq_ultra_pl/axi_dma]'
+create_bd_cell -type ip -vlnv xilinx.com:ip:axis_data_fifo:2.0 axis_data_fifo_0
+set_property location {1 842 -538} [get_bd_cells axis_data_fifo_0]
+move_bd_cells [get_bd_cells zynq_ultra_pl] [get_bd_cells axis_data_fifo_0]
+delete_bd_objs [get_bd_intf_nets zynq_ultra_pl/axis_data_fifo_M_AXIS]
+connect_bd_intf_net [get_bd_intf_pins zynq_ultra_pl/ad9269_sample_ctrl/m00_axis] [get_bd_intf_pins zynq_ultra_pl/axis_data_fifo_1/S_AXIS]
+connect_bd_intf_net [get_bd_intf_pins zynq_ultra_pl/axis_data_fifo_1/M_AXIS] [get_bd_intf_pins zynq_ultra_pl/axi_dma/S_AXIS_S2MM]
+connect_bd_net [get_bd_pins zynq_ultra_pl/axis_data_fifo_1/s_axis_aresetn] [get_bd_pins zynq_ultra_pl/proc_sys_reset/peripheral_aresetn]
+connect_bd_net [get_bd_pins zynq_ultra_pl/axis_data_fifo_1/s_axis_aclk] [get_bd_pins zynq_ultra_pl/clk_wiz/clk_out1]
+regenerate_bd_layout -routing
+set_property location {2 2471 719} [get_bd_cells zynq_ultra_ps]
+set_property location {2 2483 519} [get_bd_cells zynq_ultra_ps]
+regenerate_bd_layout -routing
+regenerate_bd_layout -routing
+regenerate_bd_layout -routing
+regenerate_bd_layout -routing
+set_property location {2 2550 547} [get_bd_cells zynq_ultra_ps]
+set_property location {2 2548 534} [get_bd_cells zynq_ultra_ps]
+regenerate_bd_layout -routing
+set_property location {2 2499 545} [get_bd_cells zynq_ultra_ps]
+set_property location {2 2497 529} [get_bd_cells zynq_ultra_ps]
+set_property location {2 2503 535} [get_bd_cells zynq_ultra_ps]
+set_property location {1 1673 1228} [get_bd_cells zynq_ultra_ps]
+regenerate_bd_layout -routing
+set_property location {1 1280 1176} [get_bd_cells zynq_ultra_ps]
+regenerate_bd_layout -routing
+write_bd_layout -format pdf -orientation portrait -force E:/Files/uav_sar/vivado_axidma3/uav_sar.pdf
+E:/Files/uav_sar/vivado_axidma3/uav_sar.pdf
+write_bd_layout -format pdf -orientation portrait D:/Files/postgraduate/fig/uav_sar.pdf
+ERROR: [BD 5-358] Parent directory 'D:/Files/postgraduate/fig' does not exist.
+write_bd_layout -format pdf -orientation portrait D:/Files/postgraduate/fig/uav_sar.pdf
+ERROR: [BD 5-358] Parent directory 'D:/Files/postgraduate/fig' does not exist.
+regenerate_bd_layout -routing
+write_bd_layout -format pdf -orientation portrait C:/Users/Administrator/Desktop/uav_sar.pdf
+C:/Users/Administrator/Desktop/uav_sar.pdf
+ipx::edit_ip_in_project -upgrade true -name ad9269_sample_ctrl_v1_0_project -directory {D:/Files/postgraduate/thesis/code/UAV-SAR\ code/vivado_axidma3/uav_sar.tmp/ad9269_sample_ctrl_v1_0_project} {d:/Files/postgraduate/thesis/code/UAV-SAR code/vivado_axidma3/repo/radar_sample_ctrl/component.xml}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'd:/files/postgraduate/thesis/code/uav-sar code/vivado_axidma3/uav_sar.tmp/ad9269_sample_ctrl_v1_0_project'
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vitis2020/Vivado/2020.1/data/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/Files/postgraduate/thesis/code/UAV-SAR code/ip_repo/myip_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/Files/postgraduate/thesis/code/UAV-SAR code/ip_repo/uart_uav_data_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/Files/postgraduate/thesis/code/UAV-SAR code/vivado_axidma3/repo/uart_uav_data_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/Files/postgraduate/thesis/code/UAV-SAR code/vivado_axidma3/repo/uart_uav_data_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/Files/postgraduate/thesis/code/UAV-SAR code/vivado_axidma3/repo/uart_uav_data_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/Files/postgraduate/thesis/code/UAV-SAR code/vivado_axidma3/repo/pl_bram_rd_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/Files/postgraduate/thesis/code/UAV-SAR code/vivado_axidma3/repo/nav_data_rd_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Files/postgraduate/thesis/code/UAV-SAR code/vivado_axidma3/repo'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [d:/Files/postgraduate/thesis/code/UAV-SAR code/vivado_axidma3/repo/radar_sample_ctrl/src/ad9269_sample .v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [d:/Files/postgraduate/thesis/code/UAV-SAR code/vivado_axidma3/repo/radar_sample_ctrl/src/ad9269_sample_v1_0_S00_AXI.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [d:/Files/postgraduate/thesis/code/UAV-SAR code/vivado_axidma3/repo/radar_sample_ctrl/src/clk_div.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [d:/Files/postgraduate/thesis/code/UAV-SAR code/vivado_axidma3/repo/radar_sample_ctrl/src/ad9269_sample_v1_0.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [d:/Files/postgraduate/thesis/code/UAV-SAR code/vivado_axidma3/repo/radar_sample_ctrl/src/AD_sim.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [d:/Files/postgraduate/thesis/code/UAV-SAR code/vivado_axidma3/repo/radar_sample_ctrl/src/sample_sim.v:]
+update_compile_order -fileset sources_1
+current_project uav_sar
+ipx::edit_ip_in_project -upgrade true -name uart_uav_data_v1_0_project -directory {D:/Files/postgraduate/thesis/code/UAV-SAR\ code/vivado_axidma3/uav_sar.tmp/uart_uav_data_v1_0_project} {d:/Files/postgraduate/thesis/code/UAV-SAR code/vivado_axidma3/repo/uart_uav_data_1.0/component.xml}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'd:/files/postgraduate/thesis/code/uav-sar code/vivado_axidma3/uav_sar.tmp/uart_uav_data_v1_0_project'
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vitis2020/Vivado/2020.1/data/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/Files/postgraduate/thesis/code/UAV-SAR code/ip_repo/myip_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/Files/postgraduate/thesis/code/UAV-SAR code/ip_repo/uart_uav_data_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/Files/postgraduate/thesis/code/UAV-SAR code/vivado_axidma3/repo/uart_uav_data_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-2207] Repository 'd:/Files/postgraduate/thesis/code/UAV-SAR code/vivado_axidma3/repo/uart_uav_data_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/Files/postgraduate/thesis/code/UAV-SAR code/vivado_axidma3/repo/uart_uav_data_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/Files/postgraduate/thesis/code/UAV-SAR code/vivado_axidma3/repo/pl_bram_rd_1.0'. The path is contained within another repository.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/Files/postgraduate/thesis/code/UAV-SAR code/vivado_axidma3/repo/nav_data_rd_1.0'. The path is contained within another repository.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Files/postgraduate/thesis/code/UAV-SAR code/vivado_axidma3/repo'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [d:/Files/postgraduate/thesis/code/UAV-SAR code/vivado_axidma3/repo/uart_uav_data_1.0/hdl/uart_rx.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [d:/Files/postgraduate/thesis/code/UAV-SAR code/vivado_axidma3/repo/uart_uav_data_1.0/hdl/uart_uav_data_v1_0_S00_AXI.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [d:/Files/postgraduate/thesis/code/UAV-SAR code/vivado_axidma3/repo/uart_uav_data_1.0/hdl/utc_time.v:]
+WARNING: [filemgmt 56-99] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [d:/Files/postgraduate/thesis/code/UAV-SAR code/vivado_axidma3/repo/uart_uav_data_1.0/hdl/uart_uav_data_v1_0.v:]
+update_compile_order -fileset sources_1
+current_project ad9269_sample_ctrl_v1_0_project
+current_project uart_uav_data_v1_0_project
+current_project ad9269_sample_ctrl_v1_0_project
+current_project uav_sar
+current_project ad9269_sample_ctrl_v1_0_project
+close_project
+close_project
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Mar 30 00:28:39 2026...

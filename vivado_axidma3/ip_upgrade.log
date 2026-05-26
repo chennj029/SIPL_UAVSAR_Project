@@ -1,0 +1,2942 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue Dec 30 11:08:40 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0) from (Rev. 42) to (Rev. 44)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue Dec 30 11:05:07 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0 (Rev. 42)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Mon Dec 29 22:28:12 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 110) to (Rev. 111)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Mon Dec 29 22:26:07 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0 (Rev. 110)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Mon Dec 29 22:25:08 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 109) to (Rev. 110)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Mon Dec 29 22:17:09 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 108) to (Rev. 109)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'uav_sar_ad9269_sample_ctrl_0_0'. These changes may impact your design.
+
+
+-Upgraded port 's00_axi_araddr' width 5 differs from original width 6
+
+-Upgraded port 's00_axi_awaddr' width 5 differs from original width 6
+
+-Upgraded port 's00_axi_rdata' width 32 differs from original width 64
+
+-Upgraded port 's00_axi_wdata' width 32 differs from original width 64
+
+-Upgraded port 's00_axi_wstrb' width 4 differs from original width 8
+
+
+3. Customization warnings
+-------------------------
+
+Parameter 'ADDR_WIDTH' is no longer present on the upgraded IP 'uav_sar_ad9269_sample_ctrl_0_0', and cannot be set to '5'
+
+Parameter 'DATA_WIDTH' is no longer present on the upgraded IP 'uav_sar_ad9269_sample_ctrl_0_0', and cannot be set to '32'
+
+
+4. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  You may consult any warnings from within this upgrade, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv xilinx.com:user:ad9269_sample_ctrl:1.0 -user_name uav_sar_ad9269_sample_ctrl_0_0
+set_property -dict "\
+  CONFIG.C_S00_AXI_ADDR_WIDTH {5} \
+  CONFIG.C_S00_AXI_DATA_WIDTH {32} \
+  CONFIG.Component_Name {uav_sar_ad9269_sample_ctrl_0_0} \
+  CONFIG.adc_clk.ASSOCIATED_BUSIF {} \
+  CONFIG.adc_clk.ASSOCIATED_RESET {adc_rst_n} \
+  CONFIG.adc_clk.CLK_DOMAIN {} \
+  CONFIG.adc_clk.FREQ_HZ {100000000} \
+  CONFIG.adc_clk.FREQ_TOLERANCE_HZ {0} \
+  CONFIG.adc_clk.INSERT_VIP {0} \
+  CONFIG.adc_clk.PHASE {0.000} \
+  CONFIG.adc_rst_n.INSERT_VIP {0} \
+  CONFIG.adc_rst_n.POLARITY {ACTIVE_LOW} \
+  CONFIG.m00_axis.CLK_DOMAIN {} \
+  CONFIG.m00_axis.FREQ_HZ {49999500} \
+  CONFIG.m00_axis.HAS_TKEEP {1} \
+  CONFIG.m00_axis.HAS_TLAST {1} \
+  CONFIG.m00_axis.HAS_TREADY {1} \
+  CONFIG.m00_axis.HAS_TSTRB {0} \
+  CONFIG.m00_axis.INSERT_VIP {0} \
+  CONFIG.m00_axis.LAYERED_METADATA {undef} \
+  CONFIG.m00_axis.PHASE {0.000} \
+  CONFIG.m00_axis.TDATA_NUM_BYTES {2} \
+  CONFIG.m00_axis.TDEST_WIDTH {0} \
+  CONFIG.m00_axis.TID_WIDTH {0} \
+  CONFIG.m00_axis.TUSER_WIDTH {0} \
+  CONFIG.m00_axis_aclk.ASSOCIATED_BUSIF {m00_axis} \
+  CONFIG.m00_axis_aclk.ASSOCIATED_RESET {m00_axis_aresetn} \
+  CONFIG.m00_axis_aclk.CLK_DOMAIN {} \
+  CONFIG.m00_axis_aclk.FREQ_HZ {49999500} \
+  CONFIG.m00_axis_aclk.FREQ_TOLERANCE_HZ {0} \
+  CONFIG.m00_axis_aclk.INSERT_VIP {0} \
+  CONFIG.m00_axis_aclk.PHASE {0.000} \
+  CONFIG.m00_axis_aresetn.INSERT_VIP {0} \
+  CONFIG.m00_axis_aresetn.POLARITY {ACTIVE_LOW} \
+  CONFIG.s00_axi.ADDR_WIDTH {6} \
+  CONFIG.s00_axi.ARUSER_WIDTH {0} \
+  CONFIG.s00_axi.AWUSER_WIDTH {0} \
+  CONFIG.s00_axi.BUSER_WIDTH {0} \
+  CONFIG.s00_axi.CLK_DOMAIN {} \
+  CONFIG.s00_axi.DATA_WIDTH {64} \
+  CONFIG.s00_axi.FREQ_HZ {49999500} \
+  CONFIG.s00_axi.HAS_BRESP {1} \
+  CONFIG.s00_axi.HAS_BURST {0} \
+  CONFIG.s00_axi.HAS_CACHE {0} \
+  CONFIG.s00_axi.HAS_LOCK {0} \
+  CONFIG.s00_axi.HAS_PROT {1} \
+  CONFIG.s00_axi.HAS_QOS {0} \
+  CONFIG.s00_axi.HAS_REGION {0} \
+  CONFIG.s00_axi.HAS_RRESP {1} \
+  CONFIG.s00_axi.HAS_WSTRB {1} \
+  CONFIG.s00_axi.ID_WIDTH {0} \
+  CONFIG.s00_axi.INSERT_VIP {0} \
+  CONFIG.s00_axi.MAX_BURST_LENGTH {1} \
+  CONFIG.s00_axi.NUM_READ_OUTSTANDING {1} \
+  CONFIG.s00_axi.NUM_READ_THREADS {1} \
+  CONFIG.s00_axi.NUM_WRITE_OUTSTANDING {1} \
+  CONFIG.s00_axi.NUM_WRITE_THREADS {1} \
+  CONFIG.s00_axi.PHASE {0.000} \
+  CONFIG.s00_axi.PROTOCOL {AXI4LITE} \
+  CONFIG.s00_axi.READ_WRITE_MODE {READ_WRITE} \
+  CONFIG.s00_axi.RUSER_BITS_PER_BYTE {0} \
+  CONFIG.s00_axi.RUSER_WIDTH {0} \
+  CONFIG.s00_axi.SUPPORTS_NARROW_BURST {0} \
+  CONFIG.s00_axi.WUSER_BITS_PER_BYTE {0} \
+  CONFIG.s00_axi.WUSER_WIDTH {0} \
+  CONFIG.s00_axi_aclk.ASSOCIATED_BUSIF {s00_axi} \
+  CONFIG.s00_axi_aclk.ASSOCIATED_RESET {s00_axi_aresetn} \
+  CONFIG.s00_axi_aclk.CLK_DOMAIN {} \
+  CONFIG.s00_axi_aclk.FREQ_HZ {49999500} \
+  CONFIG.s00_axi_aclk.FREQ_TOLERANCE_HZ {0} \
+  CONFIG.s00_axi_aclk.INSERT_VIP {0} \
+  CONFIG.s00_axi_aclk.PHASE {0.000} \
+  CONFIG.s00_axi_aresetn.INSERT_VIP {0} \
+  CONFIG.s00_axi_aresetn.POLARITY {ACTIVE_LOW} \
+  CONFIG.sys_clk.ASSOCIATED_BUSIF {} \
+  CONFIG.sys_clk.ASSOCIATED_RESET {} \
+  CONFIG.sys_clk.CLK_DOMAIN {} \
+  CONFIG.sys_clk.FREQ_HZ {49999500} \
+  CONFIG.sys_clk.FREQ_TOLERANCE_HZ {0} \
+  CONFIG.sys_clk.INSERT_VIP {0} \
+  CONFIG.sys_clk.PHASE {0.000} " [get_ips uav_sar_ad9269_sample_ctrl_0_0]
+
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Sat Dec 27 23:21:47 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 107) to (Rev. 108)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Sat Dec 27 23:20:44 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 107) to (Rev. 108)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Sat Dec 27 15:19:11 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 106) to (Rev. 107)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu Nov 20 15:11:29 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 105) to (Rev. 106)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu Nov 20 14:47:59 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 104) to (Rev. 105)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu Nov 20 14:41:23 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 103) to (Rev. 104)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu Nov 20 14:34:40 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 102) to (Rev. 103)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu Nov 20 14:16:23 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 101) to (Rev. 102)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu Nov 20 14:09:17 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 100) to (Rev. 101)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Wed Nov 19 22:01:56 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 99) to (Rev. 100)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Wed Nov 19 15:22:30 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 98) to (Rev. 99)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue Nov 18 17:05:39 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 97) to (Rev. 98)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Mon Nov 10 20:19:59 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0) from (Rev. 41) to (Rev. 42)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Sat Nov  8 14:28:07 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0) from (Rev. 40) to (Rev. 41)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'uav_sar_uart_uav_data_0_4'. These changes may impact your design.
+
+
+-Upgraded port 's00_axi_araddr' width 5 differs from original width 4
+
+-Upgraded port 's00_axi_awaddr' width 5 differs from original width 4
+
+
+3. Customization warnings
+-------------------------
+
+An attempt to modify the value of disabled parameter 'C_S00_AXI_ADDR_WIDTH' from '5' to '4' has been ignored for IP 'uav_sar_uart_uav_data_0_4'
+
+
+4. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  You may consult any warnings from within this upgrade, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv xilinx.com:user:uart_uav_data:1.0 -user_name uav_sar_uart_uav_data_0_4
+set_property -dict "\
+  CONFIG.C_M00_AXIS_START_COUNT {32} \
+  CONFIG.C_M00_AXIS_TDATA_WIDTH {32} \
+  CONFIG.C_S00_AXI_ADDR_WIDTH {4} \
+  CONFIG.C_S00_AXI_BASEADDR {0xFFFFFFFF} \
+  CONFIG.C_S00_AXI_DATA_WIDTH {32} \
+  CONFIG.C_S00_AXI_HIGHADDR {0x00000000} \
+  CONFIG.Component_Name {uav_sar_uart_uav_data_0_4} \
+  CONFIG.M00_AXIS.CLK_DOMAIN {uav_sar_clk_wiz_0_0_clk_out1} \
+  CONFIG.M00_AXIS.FREQ_HZ {49999500} \
+  CONFIG.M00_AXIS.HAS_TKEEP {0} \
+  CONFIG.M00_AXIS.HAS_TLAST {1} \
+  CONFIG.M00_AXIS.HAS_TREADY {1} \
+  CONFIG.M00_AXIS.HAS_TSTRB {1} \
+  CONFIG.M00_AXIS.INSERT_VIP {0} \
+  CONFIG.M00_AXIS.LAYERED_METADATA {undef} \
+  CONFIG.M00_AXIS.PHASE {0.0} \
+  CONFIG.M00_AXIS.TDATA_NUM_BYTES {4} \
+  CONFIG.M00_AXIS.TDEST_WIDTH {0} \
+  CONFIG.M00_AXIS.TID_WIDTH {0} \
+  CONFIG.M00_AXIS.TUSER_WIDTH {0} \
+  CONFIG.M00_AXIS.WIZ_DATA_WIDTH {32} \
+  CONFIG.M00_AXIS_CLK.ASSOCIATED_BUSIF {M00_AXIS} \
+  CONFIG.M00_AXIS_CLK.ASSOCIATED_RESET {m00_axis_aresetn} \
+  CONFIG.M00_AXIS_CLK.CLK_DOMAIN {uav_sar_clk_wiz_0_0_clk_out1} \
+  CONFIG.M00_AXIS_CLK.FREQ_HZ {49999500} \
+  CONFIG.M00_AXIS_CLK.FREQ_TOLERANCE_HZ {0} \
+  CONFIG.M00_AXIS_CLK.INSERT_VIP {0} \
+  CONFIG.M00_AXIS_CLK.PHASE {0.0} \
+  CONFIG.M00_AXIS_RST.INSERT_VIP {0} \
+  CONFIG.M00_AXIS_RST.POLARITY {ACTIVE_LOW} \
+  CONFIG.S00_AXI.ADDR_WIDTH {4} \
+  CONFIG.S00_AXI.ARUSER_WIDTH {0} \
+  CONFIG.S00_AXI.AWUSER_WIDTH {0} \
+  CONFIG.S00_AXI.BUSER_WIDTH {0} \
+  CONFIG.S00_AXI.CLK_DOMAIN {uav_sar_clk_wiz_0_0_clk_out1} \
+  CONFIG.S00_AXI.DATA_WIDTH {32} \
+  CONFIG.S00_AXI.FREQ_HZ {49999500} \
+  CONFIG.S00_AXI.HAS_BRESP {1} \
+  CONFIG.S00_AXI.HAS_BURST {0} \
+  CONFIG.S00_AXI.HAS_CACHE {0} \
+  CONFIG.S00_AXI.HAS_LOCK {0} \
+  CONFIG.S00_AXI.HAS_PROT {1} \
+  CONFIG.S00_AXI.HAS_QOS {0} \
+  CONFIG.S00_AXI.HAS_REGION {0} \
+  CONFIG.S00_AXI.HAS_RRESP {1} \
+  CONFIG.S00_AXI.HAS_WSTRB {1} \
+  CONFIG.S00_AXI.ID_WIDTH {0} \
+  CONFIG.S00_AXI.INSERT_VIP {0} \
+  CONFIG.S00_AXI.MAX_BURST_LENGTH {1} \
+  CONFIG.S00_AXI.NUM_READ_OUTSTANDING {2} \
+  CONFIG.S00_AXI.NUM_READ_THREADS {1} \
+  CONFIG.S00_AXI.NUM_WRITE_OUTSTANDING {2} \
+  CONFIG.S00_AXI.NUM_WRITE_THREADS {1} \
+  CONFIG.S00_AXI.PHASE {0.0} \
+  CONFIG.S00_AXI.PROTOCOL {AXI4LITE} \
+  CONFIG.S00_AXI.READ_WRITE_MODE {READ_WRITE} \
+  CONFIG.S00_AXI.RUSER_BITS_PER_BYTE {0} \
+  CONFIG.S00_AXI.RUSER_WIDTH {0} \
+  CONFIG.S00_AXI.SUPPORTS_NARROW_BURST {0} \
+  CONFIG.S00_AXI.WIZ_DATA_WIDTH {32} \
+  CONFIG.S00_AXI.WIZ_NUM_REG {4} \
+  CONFIG.S00_AXI.WUSER_BITS_PER_BYTE {0} \
+  CONFIG.S00_AXI.WUSER_WIDTH {0} \
+  CONFIG.S00_AXI_CLK.ASSOCIATED_BUSIF {S00_AXI} \
+  CONFIG.S00_AXI_CLK.ASSOCIATED_RESET {s00_axi_aresetn} \
+  CONFIG.S00_AXI_CLK.CLK_DOMAIN {uav_sar_clk_wiz_0_0_clk_out1} \
+  CONFIG.S00_AXI_CLK.FREQ_HZ {49999500} \
+  CONFIG.S00_AXI_CLK.FREQ_TOLERANCE_HZ {0} \
+  CONFIG.S00_AXI_CLK.INSERT_VIP {0} \
+  CONFIG.S00_AXI_CLK.PHASE {0.0} \
+  CONFIG.S00_AXI_RST.INSERT_VIP {0} \
+  CONFIG.S00_AXI_RST.POLARITY {ACTIVE_LOW} " [get_ips uav_sar_uart_uav_data_0_4]
+
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Sat Nov  8 14:19:38 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0) from (Rev. 39) to (Rev. 40)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Fri Nov  7 22:36:35 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0) from (Rev. 38) to (Rev. 39)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Fri Nov  7 22:19:55 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0 (Rev. 38)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue Nov  4 11:59:52 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 96) to (Rev. 97)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue Nov  4 11:53:15 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0 (Rev. 96)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue Nov  4 11:50:55 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 95) to (Rev. 96)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu Oct 30 20:00:20 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 94) to (Rev. 95)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'uav_sar_ad9269_sample_ctrl_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'sample_en'
+
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Wed Oct 29 23:23:33 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 93) to (Rev. 94)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Wed Oct 29 20:17:41 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 92) to (Rev. 93)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue Oct 28 22:04:34 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 91) to (Rev. 92)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue Oct 28 20:34:06 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 90) to (Rev. 91)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue Oct 28 17:15:12 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 89) to (Rev. 90)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'uav_sar_ad9269_sample_ctrl_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'dma_cnt'
+
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue Oct 28 17:05:16 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 88) to (Rev. 89)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue Oct 28 16:58:06 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 87) to (Rev. 88)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Mon Oct 27 21:37:05 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 86) to (Rev. 87)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue Oct 14 22:35:18 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 85) to (Rev. 86)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue Oct 14 21:45:08 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 84) to (Rev. 85)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Mon Oct 13 23:30:00 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 83) to (Rev. 84)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Mon Oct 13 23:19:23 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 82) to (Rev. 83)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Mon Oct 13 23:16:28 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 81) to (Rev. 82)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Mon Oct 13 17:12:01 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 80) to (Rev. 81)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'uav_sar_ad9269_sample_ctrl_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'sample_en'
+
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Mon Oct 13 14:10:08 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 79) to (Rev. 80)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'uav_sar_ad9269_sample_ctrl_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'dma_cnt'
+
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Sun Oct 12 22:55:13 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 78) to (Rev. 79)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Sun Oct 12 18:26:37 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 77) to (Rev. 78)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Sun Oct 12 17:46:09 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 76) to (Rev. 77)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Sun Oct 12 14:15:24 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 75) to (Rev. 76)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Sat Oct 11 12:06:03 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0) from (Rev. 37) to (Rev. 38)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Sat Oct 11 12:01:43 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0 (Rev. 37)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu Oct  9 17:15:20 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 74) to (Rev. 75)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Wed Sep 10 23:58:29 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0) from (Rev. 36) to (Rev. 37)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Wed Sep 10 23:52:35 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0 (Rev. 36)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Mon Sep  8 16:19:09 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0) from (Rev. 34) to (Rev. 36)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'uav_sar_uart_uav_data_0_4'. These changes may impact your design.
+
+
+-Upgrade has removed port 'align_time'
+
+-Upgrade has removed port 'time_aligned_done'
+
+-Upgrade has removed port 'uart_rx_data'
+
+-Upgrade has removed port 'uart_rx_done'
+
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Mon Sep  8 16:11:51 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0 (Rev. 34)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Mon Sep  8 16:05:59 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0 (Rev. 34)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu Jul 24 22:33:13 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0) from (Rev. 33) to (Rev. 34)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu Jul 24 22:26:46 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0 (Rev. 74)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu Jul 24 22:25:28 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 73) to (Rev. 74)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu Jun 12 20:57:47 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 72) to (Rev. 73)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu Jun 12 09:54:55 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 71) to (Rev. 72)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Mon Jun  9 00:04:10 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 70) to (Rev. 71)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue Jun  3 16:27:54 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 69) to (Rev. 70)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue Jun  3 15:05:06 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 68) to (Rev. 69)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Sat May 31 15:42:15 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0) from (Rev. 32) to (Rev. 33)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Fri May 30 23:34:17 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0) from (Rev. 31) to (Rev. 32)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Fri May 30 23:32:19 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0 (Rev. 31)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Fri May 30 17:54:53 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0) from (Rev. 30) to (Rev. 31)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Fri May 30 17:50:35 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0 (Rev. 30)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Fri May 30 16:25:36 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0) from (Rev. 29) to (Rev. 30)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Fri May 30 16:18:37 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0 (Rev. 29)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu May 29 23:43:24 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0) from (Rev. 28) to (Rev. 29)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu May 29 23:35:39 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0 (Rev. 28)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu May 29 22:32:59 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0) from (Rev. 27) to (Rev. 28)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'uav_sar_uart_uav_data_0_4'. These changes may impact your design.
+
+
+-Upgrade has added port 'align_time'
+
+-Upgrade has added port 'first_pulse_flag'
+
+-Upgrade has added port 'time_aligned_done'
+
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu May 29 22:32:59 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 66) to (Rev. 68)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'uav_sar_ad9269_sample_ctrl_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'first_pulse_flag'
+
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu May 29 22:25:42 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0 (Rev. 27)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu May 29 22:25:42 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0 (Rev. 66)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu May 29 17:26:23 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 65) to (Rev. 66)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu May 29 17:23:10 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 64) to (Rev. 65)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'uav_sar_ad9269_sample_ctrl_0_0'.
+
+
+-Upgrade has added interface 'sys_clk' (xilinx.com:signal:clock:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'uav_sar_ad9269_sample_ctrl_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'sys_clk'
+
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu May 29 15:37:14 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 63) to (Rev. 64)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu May 29 14:19:31 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0 (Rev. 63)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu May 29 14:18:19 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0) from (Rev. 26) to (Rev. 27)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu May 29 14:18:19 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 62) to (Rev. 63)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu May 29 11:39:14 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0) from (Rev. 24) to (Rev. 26)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu May 29 11:39:14 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 61) to (Rev. 62)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu May 29 11:38:12 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0 (Rev. 24)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu May 29 11:38:12 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0 (Rev. 61)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Wed May 28 16:50:11 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 60) to (Rev. 61)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue May 27 22:56:50 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 59) to (Rev. 60)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue May 27 22:42:50 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0 (Rev. 59)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue May 27 22:41:23 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 58) to (Rev. 59)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue May 27 22:39:25 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 57) to (Rev. 58)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue May 27 22:30:30 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 56) to (Rev. 57)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue May 27 22:25:50 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 55) to (Rev. 56)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue May 27 22:10:18 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0) from (Rev. 23) to (Rev. 24)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue May 27 22:10:18 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_ad9269_sample_ctrl_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_ad9269_sample_ctrl_0_0 (xilinx.com:user:ad9269_sample_ctrl:1.0) from (Rev. 54) to (Rev. 55)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue May 27 17:10:10 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0) from (Rev. 22) to (Rev. 23)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu May 15 22:27:51 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0) from (Rev. 19) to (Rev. 22)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'uav_sar_uart_uav_data_0_4'. These changes may impact your design.
+
+
+-Upgrade has removed port 'm00_axis_tstrb'
+
+-Upgrade has added port 'm00_axis_tkeep'
+
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue May 13 17:19:55 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0) from (Rev. 18) to (Rev. 19)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue May 13 17:15:41 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0 (Rev. 18)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue May 13 15:49:39 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0) from (Rev. 17) to (Rev. 18)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue May 13 15:45:23 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0 (Rev. 17)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue May 13 10:46:26 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0) from (Rev. 14) to (Rev. 17)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Mon May 12 23:57:16 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0 (Rev. 14)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Mon May 12 21:56:03 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0 (Rev. 14)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Mon May 12 21:42:39 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0 (Rev. 14)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Mon May 12 21:35:01 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0) from (Rev. 12) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Mon May 12 21:05:03 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0 (Rev. 12)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Mon May 12 14:18:36 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0 (Rev. 12)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Fri May  9 20:43:47 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0 (Rev. 12)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu May  8 17:25:09 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0) from (Rev. 11) to (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu May  8 17:17:04 2025
+| Host         : WIN-DQCLN0PBKKI running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0 (Rev. 11)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1_AR75502 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue Apr  8 15:30:55 2025
+| Host         : DESKTOP-STTR34N running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+--------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0) from (Rev. 10) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1_AR75502 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Tue Apr  8 15:28:53 2025
+| Host         : DESKTOP-STTR34N running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+--------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0 (Rev. 10)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1_AR75502 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Mon Apr  7 21:31:10 2025
+| Host         : DESKTOP-STTR34N running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+--------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0) from (Rev. 9) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1_AR75502 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu Mar 20 19:34:42 2025
+| Host         : DESKTOP-STTR34N running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+--------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0) from (Rev. 6) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1_AR75502 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu Mar 20 17:23:43 2025
+| Host         : DESKTOP-STTR34N running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+--------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0 (Rev. 6)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1_AR75502 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu Mar 20 17:19:28 2025
+| Host         : DESKTOP-STTR34N running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+--------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0 (Rev. 6)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1_AR75502 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu Mar 20 17:13:53 2025
+| Host         : DESKTOP-STTR34N running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+--------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0 (Rev. 6)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1_AR75502 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu Mar 20 16:55:10 2025
+| Host         : DESKTOP-STTR34N running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+--------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0 (Rev. 6)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1_AR75502 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu Mar 20 16:47:52 2025
+| Host         : DESKTOP-STTR34N running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+--------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0) from (Rev. 5) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1_AR75502 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu Mar 20 16:40:46 2025
+| Host         : DESKTOP-STTR34N running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+--------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0) from (Rev. 4) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1_AR75502 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Thu Mar 20 16:19:23 2025
+| Host         : DESKTOP-STTR34N running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+--------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1_AR75502 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Fri Mar 14 22:52:45 2025
+| Host         : DESKTOP-STTR34N running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+--------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0) from (Rev. 1) to (Rev. 3)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'uav_sar_uart_uav_data_0_4'. These changes may impact your design.
+
+
+-Upgrade has added port 'clk_cnt'
+
+-Upgrade has added port 'uart_rx_data'
+
+-Upgrade has added port 'uart_rx_done'
+
+-Upgrade has added port 'uart_rxd'
+
+-Upgrade has added port 'utc_done'
+
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1_AR75502 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
+| Date         : Fri Mar 14 22:51:44 2025
+| Host         : DESKTOP-STTR34N running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xczu2cg-sfvc784-1-e
+--------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'uav_sar_uart_uav_data_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of uav_sar_uart_uav_data_0_4 (xilinx.com:user:uart_uav_data:1.0 (Rev. 1)) to Vivado generation flows.
+

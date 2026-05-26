@@ -1,0 +1,32 @@
+# do {uart_tb_elaborate.do}
+# QuestaSim-64 vopt 2020.1 Compiler 2020.01 Jan 28 2020
+# Start time: 21:56:00 on Nov 24,2024
+# vopt "+acc=npr" -L xilinx_vip -L xpm -L xil_defaultlib -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -work xil_defaultlib xil_defaultlib.uart_tb xil_defaultlib.glbl -o uart_tb_opt 
+# 
+# Top level modules:
+# 	uart_tb
+# 	glbl
+# 
+# Analyzing design...
+# -- Loading module uart_tb
+# -- Loading module glbl
+# -- Loading module pl_uart
+# -- Loading module uart_rx
+# -- Loading module uart_tx
+# ** Error (suppressible): ../../../../uav_sar.srcs/sim_1/new/uart_tb.v(112): (vopt-2912) Port 'clk' not found in module 'pl_uart' (1st connection).
+# ** Error (suppressible): ../../../../uav_sar.srcs/sim_1/new/uart_tb.v(112): (vopt-2912) Port 'rst_n' not found in module 'pl_uart' (2nd connection).
+# Optimization failed
+# End time: 21:56:00 on Nov 24,2024, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: D:/QuestaSim2020.1/win64/vopt failed.
+# Error in macro ./uart_tb_elaborate.do line 9
+# Return status = 2
+#     (procedure "compile" line 7)
+#     invoked from within
+# "compile NoFilter vopt +acc=npr -L xilinx_vip -L xpm -L xil_defaultlib -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -work xil_defaultlib xi..."
+#     ("eval" body line 1)
+#     invoked from within
+# "eval compile NoFilter vopt $args"
+#     (procedure "vopt" line 9)
+#     invoked from within
+# "vopt +acc=npr -L xilinx_vip -L xpm -L xil_defaultlib -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -work xil_defaultlib xil_defaultlib.uart..."

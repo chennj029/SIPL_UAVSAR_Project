@@ -1,0 +1,11 @@
+/include/ "system-conf.dtsi"
+/ {
+};
+
+&zynq_ultra_pl_ad9269_sample_ctrl {
+	compatible = "alinx,axi-adc-dma";
+	dmas = <&zynq_ultra_pl_axi_dma 1>;
+	dma-names = "axidma1";
+};
+
+

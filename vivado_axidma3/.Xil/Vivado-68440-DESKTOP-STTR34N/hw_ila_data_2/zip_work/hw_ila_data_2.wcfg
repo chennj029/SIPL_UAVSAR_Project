@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/Files/uav_sar/vivado_axibram_new/uav_sar.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="16385fs"></ZoomEndTime>
+      <Cursor1Time time="11633fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="371"></NameColumnWidth>
+      <ValueColumnWidth column_width="182"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_nav_data_0/inst/uart_nav_data_v1_0_S00_AXI_inst/u_uart_rx/u_bram_wr/ram_clk" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_nav_data_0/inst/uart_nav_data_v1_0_S00_AXI_inst/u_uart_rx/u_bram_wr/ram_clk</obj_property>
+      <obj_property name="ObjectShortName">ram_clk</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_nav_data_0/inst/uart_nav_data_v1_0_S00_AXI_inst/u_uart_rx/u_bram_wr/ram_rst" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_nav_data_0/inst/uart_nav_data_v1_0_S00_AXI_inst/u_uart_rx/u_bram_wr/ram_rst</obj_property>
+      <obj_property name="ObjectShortName">ram_rst</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_nav_data_0/inst/uart_nav_data_v1_0_S00_AXI_inst/u_uart_rx/u_bram_wr/ram_en" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_nav_data_0/inst/uart_nav_data_v1_0_S00_AXI_inst/u_uart_rx/u_bram_wr/ram_en</obj_property>
+      <obj_property name="ObjectShortName">ram_en</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_nav_data_0/inst/uart_nav_data_v1_0_S00_AXI_inst/u_uart_rx/u_bram_wr/uart_rx_done" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_nav_data_0/inst/uart_nav_data_v1_0_S00_AXI_inst/u_uart_rx/u_bram_wr/uart_rx_done</obj_property>
+      <obj_property name="ObjectShortName">uart_rx_done</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_nav_data_0/inst/uart_nav_data_v1_0_S00_AXI_inst/u_uart_rx/u_bram_wr/uart_rx_data" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_nav_data_0/inst/uart_nav_data_v1_0_S00_AXI_inst/u_uart_rx/u_bram_wr/uart_rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_rx_data[7:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_nav_data_0/inst/uart_nav_data_v1_0_S00_AXI_inst/u_uart_rx/u_bram_wr/ram_rd_data" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_nav_data_0/inst/uart_nav_data_v1_0_S00_AXI_inst/u_uart_rx/u_bram_wr/ram_rd_data</obj_property>
+      <obj_property name="ObjectShortName">ram_rd_data</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_nav_data_0/inst/uart_nav_data_v1_0_S00_AXI_inst/u_uart_rx/u_bram_wr/uart_data_reg[0]" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_nav_data_0/inst/uart_nav_data_v1_0_S00_AXI_inst/u_uart_rx/u_bram_wr/uart_data_reg[0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_data_reg[0][7:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_nav_data_0/inst/uart_nav_data_v1_0_S00_AXI_inst/u_uart_rx/u_bram_wr/uart_data_reg[1]" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_nav_data_0/inst/uart_nav_data_v1_0_S00_AXI_inst/u_uart_rx/u_bram_wr/uart_data_reg[1][7:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_data_reg[1][7:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_nav_data_0/inst/uart_nav_data_v1_0_S00_AXI_inst/u_uart_rx/u_bram_wr/uart_data_reg[2]" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_nav_data_0/inst/uart_nav_data_v1_0_S00_AXI_inst/u_uart_rx/u_bram_wr/uart_data_reg[2][7:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_data_reg[2][7:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_nav_data_0/inst/uart_nav_data_v1_0_S00_AXI_inst/u_uart_rx/u_bram_wr/uart_data_reg[3]" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_nav_data_0/inst/uart_nav_data_v1_0_S00_AXI_inst/u_uart_rx/u_bram_wr/uart_data_reg[3][7:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_data_reg[3][7:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_nav_data_0/inst/uart_nav_data_v1_0_S00_AXI_inst/u_uart_rx/u_bram_wr/uart_data_count" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_nav_data_0/inst/uart_nav_data_v1_0_S00_AXI_inst/u_uart_rx/u_bram_wr/uart_data_count[2:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_data_count[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_nav_data_0/inst/uart_nav_data_v1_0_S00_AXI_inst/u_uart_rx/u_bram_wr/uart_data_count_3" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_nav_data_0/inst/uart_nav_data_v1_0_S00_AXI_inst/u_uart_rx/u_bram_wr/uart_data_count_3</obj_property>
+      <obj_property name="ObjectShortName">uart_data_count_3</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_nav_data_0/inst/uart_nav_data_v1_0_S00_AXI_inst/u_uart_rx/u_bram_wr/bram_data_reg" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_nav_data_0/inst/uart_nav_data_v1_0_S00_AXI_inst/u_uart_rx/u_bram_wr/bram_data_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">bram_data_reg[31:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_nav_data_0/inst/uart_nav_data_v1_0_S00_AXI_inst/u_uart_rx/u_bram_wr/ram_wr_data" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_nav_data_0/inst/uart_nav_data_v1_0_S00_AXI_inst/u_uart_rx/u_bram_wr/ram_wr_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_wr_data[31:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_nav_data_0/inst/uart_nav_data_v1_0_S00_AXI_inst/u_uart_rx/u_bram_wr/ram_we_reg" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_nav_data_0/inst/uart_nav_data_v1_0_S00_AXI_inst/u_uart_rx/u_bram_wr/ram_we_reg</obj_property>
+      <obj_property name="ObjectShortName">ram_we_reg</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_nav_data_0/inst/uart_nav_data_v1_0_S00_AXI_inst/u_uart_rx/u_bram_wr/ram_we" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_nav_data_0/inst/uart_nav_data_v1_0_S00_AXI_inst/u_uart_rx/u_bram_wr/ram_we[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_we[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uav_sar_i/zynq_ultra_pl/uart_nav_data_0/inst/uart_nav_data_v1_0_S00_AXI_inst/u_uart_rx/u_bram_wr/ram_addr" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">uav_sar_i/zynq_ultra_pl/uart_nav_data_0/inst/uart_nav_data_v1_0_S00_AXI_inst/u_uart_rx/u_bram_wr/ram_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_addr[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>

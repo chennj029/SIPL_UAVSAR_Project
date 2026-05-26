@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_proc_sys_reset_0_0/sim/uav_sar_proc_sys_reset_0_0.vhd" \
+"../../../../uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_axi_dma_0_0/sim/uav_sar_axi_dma_0_0.vhd" \
+"../../../../uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_util_ds_buf_0_0/util_ds_buf.vhd" \
+"../../../../uav_sar.srcs/sources_1/bd/uav_sar/ip/uav_sar_util_ds_buf_0_0/sim/uav_sar_util_ds_buf_0_0.vhd" \
+
+# Do not sort compile order
+nosort

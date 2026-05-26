@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../uav_sar.srcs/sources_1/bd/uav_sar/ipshared/ec67/hdl" --include "../../../../uav_sar.srcs/sources_1/bd/uav_sar/ipshared/e257/hdl" --include "../../../../uav_sar.srcs/sources_1/bd/uav_sar/ipshared/8713/hdl" --include "../../../../uav_sar.srcs/sources_1/bd/uav_sar/ipshared/8b3d" --include "E:/Xilinx_vitis2020/Vivado/2020.1/data/xilinx_vip/include" \
+"C:/Users/Administrator/Desktop/ad9269_sample.v" \
+
+sv xil_defaultlib  --include "../../../../uav_sar.srcs/sources_1/bd/uav_sar/ipshared/ec67/hdl" --include "../../../../uav_sar.srcs/sources_1/bd/uav_sar/ipshared/e257/hdl" --include "../../../../uav_sar.srcs/sources_1/bd/uav_sar/ipshared/8713/hdl" --include "../../../../uav_sar.srcs/sources_1/bd/uav_sar/ipshared/8b3d" --include "E:/Xilinx_vitis2020/Vivado/2020.1/data/xilinx_vip/include" \
+"C:/Users/Administrator/Desktop/tb_ad9269_sample.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
